@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add your gradient styles for the #info div */
+        #info {
+            background: linear-gradient(to right, #4CAF50, #2196F3); /* Example gradient colors */
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Style each individual info block */
+        #info p {
+            margin: 0; /* Remove default margin for paragraphs */
+            text-align: center;
+            flex: 1; /* Make each block take equal width */
+        }
+
+        /* Style the Get Started button with a bigger font */
+        .get-started-button {
+            align-items: center;
+            background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+            border: 0;
+            border-radius: 8px;
+            box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            display: flex;
+            font-family: Phantomsans, sans-serif;
+            font-size: 1.5em; /* Adjust the font size as needed */
+            justify-content: center;
+            line-height: 1em;
+            max-width: 100%;
+            min-width: 140px;
+            padding: 19px 24px;
+            text-decoration: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            cursor: pointer;
+            margin: 20px auto; /* Center the button horizontally and add some margin */
+        }
+
+        .get-started-button:active,
+        .get-started-button:hover {
+            outline: 0;
+        }
+
+        @media (min-width: 768px) {
+            .get-started-button {
+                font-size: 24px;
+                min-width: 196px;
+            }
+        }
+
+        /* Center the image on the page */
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Make sure the image doesn't exceed the width of its container */
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <header>
+            <h1>College Recommendation System</h1>
+        </header>
+    
+        <main>
+            <div id="info">
+                <!-- Use an anchor tag to create a link to home.html -->
+                <div>
+                    <p>No. of Colleges</p>
+                    <p>396</p>
+                </div>
+                <div>
+                    <p>No. of Courses</p>
+                    <p>18</p>
+                </div>
+                <div>
+                    <p>No. of Students Counselled</p>
+                    <p>4</p>
+    
+                </div>
+                <div>
+                    <p>No. of Searches</p>
+                    <p>3987</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="images/lib.jpg" alt="Library Image">
+            </div>
+        </main>    
+    
+    <button class="get-started-button">Get Started To College Recommendation System</button>
+
+    <script>
+        // Use getElementsByClassName because 'get-started-button' is a class, not an ID
+        document.getElementsByClassName('get-started-button')[0].addEventListener('click', function() {
+            redirectToHome(); // Call the function directly
+        });
+        function redirectToHome() {
+            window.location.href = 'Home.html';
+        }
+    </script>
+
+
+</body>
+</html>

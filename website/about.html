@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Recommendation System</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add these styles to increase the size of the buttons */
+        #loginButton, #signupButton, button {
+            padding: 12px 20px; /* You can adjust the padding values to increase or decrease the button size */
+            font-size: 16px; /* You can adjust the font size if needed */
+        }
+        /* Add these styles to increase the size of the buttons */
+        #loginButton, #signupButton, button {
+            padding: 12px 20px; /* You can adjust the padding values to increase or decrease the button size */
+            font-size: 16px; /* You can adjust the font size if needed */
+        }
+
+        /* Add a new style for centering content */
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* This ensures that the content takes the full height of the viewport */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>College Recommendation System</h1>
+        <div id="user-info">
+            <span id="guest">Welcome Guest</span>
+        </div>
+    </header>
+    <div class="container">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="search-by-subject.html">Search by Subject</a>
+            <a href="bysubjectandscore.html">Search by Score</a>
+            <a href="byfaculty.html">Get best by no. of Faculty</a>
+            <a href="about.html">About</a>
+            <a href="signin.html">Account</a>
+        </nav>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var footer = document.querySelector('footer');
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+                footer.classList.add('show');
+            } else {
+                footer.classList.remove('show');
+            }
+            });
+        function checkLogin() {
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+    
+            fetch('users.csv')
+                .then(response => response.text())
+                .then(data => {
+                    var rows = data.split('\n');
+                    var found = false;
+                    var userDetails = {};
+    
+                    for (var i = 1; i < rows.length; i++) {
+                        var columns = rows[i].split(',');
+                        if (columns[0] === email && columns[1] === password) {
+                            found = true;
+                            userDetails = {
+                                name: columns[2],
+                                phone: columns[4]
+                            };
+                            break;
+                        }
+                    }
+    
+                    if (found) {
+                        displayDetails(userDetails);
+                        // Store user's name in sessionStorage
+                        sessionStorage.setItem('userName', userDetails.name);
+                    } else {
+                        displayError();
+                    }
+                });
+        }
+    
+        function displayDetails(userDetails) {
+            var resultDiv = document.getElementById('result');
+            resultDiv.style.color = 'black';
+            resultDiv.innerHTML = 'Welcome, ' + userDetails.name + '. Phone: ' + userDetails.phone;
+    
+            // Update the user-info span in the header
+            var userInfoSpan = document.getElementById('guest');
+            userInfoSpan.innerHTML = 'Welcome ' + userDetails.name;
+        }
+    
+        function displayError() {
+            var resultDiv = document.getElementById('result');
+            resultDiv.style.color = 'red';
+            resultDiv.innerHTML = 'Invalid email or password. Please try again.';
+        }
+    
+        // Check if user's name is stored in sessionStorage on page load
+        window.onload = function() {
+            var userName = sessionStorage.getItem('userName');
+            if (userName) {
+                var userInfoSpan = document.getElementById('guest');
+                userInfoSpan.innerHTML = 'Welcome ' + userName;
+            }
+        };
+    </script>
+    
+    
+    <div class="container">
+        
+        <main>
+            <div id="randomImage">
+                <!-- Image will be dynamically loaded here -->
+            </div>
+            <script>
+                // Array of image file names in the "images" folder
+                var imageFiles = ["1.jpg"]
+        
+                // Get a random index to select a random image
+                var randomIndex = Math.floor(Math.random() * imageFiles.length);
+        
+                // Create an image element
+                var imageElement = document.createElement("img");
+        
+                // Set the source attribute to the randomly selected image
+                imageElement.src = "images/" + imageFiles[randomIndex];
+        
+                // Set alt attribute for accessibility
+                imageElement.alt = "Random Image";
+        
+                // Append the image element to the "randomImage" div
+                document.getElementById("randomImage").appendChild(imageElement);
+            </script>
+            <section id="about">
+                <h2>About College Recommendation System</h2>
+                <p>This College Recommendation System is designed to help students find the right college based on their preferences and criteria. It aims to provide valuable information and recommendations to assist students in making informed decisions about their educational future.</p>
+                <p>The 3 features of this system are as follows - </p>
+                <p>1. Search By Subject - It searches for all the colleges that teaches the user entered subject.</p>
+                <p>2. Search By Score - It searches for all the colleges that have Gre cutoff less than the user and also have the subject of their choice.</p>
+                <p>3. Get Best By No. of Faculty - It suggests the best college with respect to student's subject choice and Gre cutoff less than user .</p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>College Recommendation System Version 2023 Test</p>
+    </footer>
+</body>
+</html>

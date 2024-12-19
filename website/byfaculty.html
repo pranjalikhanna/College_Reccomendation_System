@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Recommendation System</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add these styles to increase the size of the buttons */
+        #loginButton, #signupButton, button {
+            padding: 12px 20px; /* You can adjust the padding values to increase or decrease the button size */
+            font-size: 16px; /* You can adjust the font size if needed */
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        table {
+        font-size:  12px; /* Adjust the font size as needed */
+    }
+    
+    th, td {
+        font-size: 12px; /* Adjust the font size for table header cells and data cells */
+    }
+    </style>
+
+    <header>
+        <h1>College Recommendation System</h1>
+        <div id="user-info">
+            <span id="guest">Welcome Guest</span>
+        </div>
+    </header>
+    <div class="container">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="search-by-subject.html">Search by Subject</a>
+            <a href="bysubjectandscore.html">Search by Score</a>
+            <a href="byfaculty.html">Get best by no. of Faculty</a>
+            <a href="about.html">About</a>
+            <a href="signin.html">Account</a>
+        </nav>
+
+        <main>
+            <!-- Check if the user is logged in -->
+            <script>
+                
+                window.addEventListener('scroll', function () {
+                    var footer = document.querySelector('footer');
+                    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+                        footer.classList.add('show');
+                    } else {
+                        footer.classList.remove('show');
+                    }
+                    });
+                window.onload = function () {
+                    var userName = sessionStorage.getItem('userName');
+                    if (userName) {
+                        var userInfoSpan = document.getElementById('guest');
+                        userInfoSpan.innerHTML = 'Welcome ' + userName;
+                        showMainContent(); // User is logged in, show the main content
+                    } else {
+                        showLoginOption(); // User is not logged in, show login option
+                    }
+                };
+
+                function showMainContent() {
+                    document.getElementById('main-content').style.display = 'block';
+                }
+
+                function showLoginOption() {
+                    document.getElementById('login-option').style.display = 'block';
+                }
+
+                function redirectToSignIn() {
+                    window.location.href = 'signin.html';
+                }
+            </script>
+
+            <!-- Login option -->
+            <div id="login-option" style="display: none;">
+                <p>Please <a href="#" onclick="redirectToSignIn()">Log in</a> to access the content.</p>
+            </div>
+
+            <!-- Main content (visible only if the user is logged in) -->
+            <div id="main-content" style="display: none;">
+                <h1>Search by Subject and Score and get the best result according to faculties</h1>
+
+                <!-- Form for /by_subject_and_score endpoint -->
+                <form id="subjectAndScoreForm">
+                    <label for="gre_score">Score:</label>
+                    <input type="number" id="gre_score" name="gre_score" required>
+
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <button type="button" onclick="getBySubjectAndScore()">Search</button>
+                </form>
+
+                <!-- Display results here -->
+                <div id="result"></div>
+
+                <script>
+                    // Function to make a POST request to /by_subject_and_score endpoint
+                    function getBySubjectAndScore() {
+                        const formData = new FormData(document.getElementById('subjectAndScoreForm'));
+
+                        console.log('Request Body:', JSON.stringify({
+                            gre_score: formData.get('gre_score'),
+                            subject: formData.get('subject'),
+
+                        }));
+
+                        fetch('http://localhost:8080/get_college/by_faculties', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                },
+                                body: JSON.stringify({
+                                    gre_score: formData.get('gre_score'),
+                                    subject: formData.get('subject'),
+
+                                }),
+                            })
+                            .then(response => {
+                                console.log('Response Status:', response.status);
+                                return response.json();
+                            })
+                            .then(data => {
+                                console.log('Response Data:', data);
+                                displayResult(data);
+                            })
+                            .catch(error => {
+                                console.error('Error:', error);
+                                displayResult({
+                                    error: 'An error occurred. Please check the console for details.'
+                                });
+                            });
+                    }
+
+                    // Function to display the result in a table
+                    function displayResult(result) {
+                        const resultDiv = document.getElementById('result');
+
+                        if (result.error) {
+                            resultDiv.innerHTML = '<h2>Error:</h2>' + result.error;
+                            return;
+                        }
+
+                        // Create a table
+                        const table = document.createElement('table');
+                        table.border = '1';
+
+                        // Create header row
+                        const headerRow = table.insertRow(0);
+                        for (const key in result) {
+                            const th = document.createElement('th');
+                            th.innerHTML = key;
+                            headerRow.appendChild(th);
+                        }
+
+                        // Create data row
+                        const row = table.insertRow();
+                        for (const key in result) {
+                            const cell = row.insertCell();
+                            cell.innerHTML = result[key];
+                        }
+
+                        // Replace resultDiv content with the table
+                        resultDiv.innerHTML = '<h2>Result:</h2>';
+                        resultDiv.appendChild(table);
+                    }
+                </script>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>College Recommendation System Version 2023 Test</p>
+    </footer>
+
+</body>
+
+</html>

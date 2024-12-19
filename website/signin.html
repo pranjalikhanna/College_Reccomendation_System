@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Recommendation System</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add these styles to increase the size of the buttons */
+        #loginButton, #signupButton, button {
+            padding: 12px 20px; /* You can adjust the padding values to increase or decrease the button size */
+            font-size: 16px; /* You can adjust the font size if needed */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>College Recommendation System</h1>
+        <div id="user-info">
+            <span id="guest">Welcome Guest</span>
+        </div>
+    </header>
+    <div class="container">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="search-by-subject.html">Search by Subject</a>
+            <a href="bysubjectandscore.html">Search by Score</a>
+            <a href="byfaculty.html">Get best by no. of Faculty</a>
+            <a href="about.html">About</a>
+            <a href="signin.html">Account</a>
+        </nav>
+
+        <main>
+            <div id="loginForm">
+                <h2>Login</h2>
+                <form onsubmit="checkLogin(); return false;">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required><br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required><br>
+
+                    <input type="submit" value="Login" id="loginButton">
+                </form>
+                <div id="result"></div>
+
+            </div>
+
+            <div id="signupForm" style="display: none;">
+                <h2>Sign Up</h2>
+                <form onsubmit="signup(); return false;">
+                    <label for="signupEmail">Email:</label>
+                    <input type="email" id="signupEmail" required><br>
+
+                    <label for="signupPassword">Password:</label>
+                    <input type="password" id="signupPassword" required><br>
+
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" required><br>
+
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" required><br>
+
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone" required><br>
+                    <input type="submit" value="Sign Up" id="signupButton">
+                </form>
+                <p>Already have an account? <a href="#" onclick="showLoginForm()">Log in</a>.</p>
+            </div>
+
+            <div id="userDetails" style="display: none;">
+                <h2>User Details</h2>
+                <div id="userInfo"></div>
+                <button onclick="logout()">Logout</button>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>College Recommendation System Version 2023 Test</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var footer = document.querySelector('footer');
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+                footer.classList.add('show');
+            } else {
+                footer.classList.remove('show');
+            }
+            });
+        function getCurrentPage() {
+            var path = window.location.pathname;
+            var page = path.split("/").pop();
+            return page;
+        }
+
+        window.onload = function () {
+            var userName = sessionStorage.getItem('userName');
+            if (userName) {
+                var userInfoSpan = document.getElementById('guest');
+                userInfoSpan.innerHTML = 'Welcome ' + userName;
+                showUserDetails();
+            } else {
+                var userDetailsDiv = document.getElementById('userDetails');
+                if (userDetailsDiv.style.display === 'block' && getCurrentPage() === 'signin.html') {
+                    showUserDetails();
+                } else {
+                    document.getElementById('email').value = '';
+                    document.getElementById('password').value = '';
+                }
+            }
+        };
+
+        function checkLogin() {
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+            fetch('users.csv')
+                .then(response => response.text())
+                .then(data => {
+                    var rows = data.split('\n');
+                    var found = false;
+                    var userDetails = {};
+
+                    for (var i = 1; i < rows.length; i++) {
+                        var columns = rows[i].split(',');
+                        if (columns[0] === email && columns[1] === password) {
+                            found = true;
+                            userDetails = {
+                                email: columns[0],
+                                firstName: columns[2],
+                                lastName: columns[3],
+                                phone: columns[4]
+                            };
+                            break;
+                        }
+                    }
+
+                    if (found) {
+                        displayDetails(userDetails);
+                        // Persist user details in sessionStorage
+                        sessionStorage.setItem('userName', userDetails.firstName);
+                        sessionStorage.setItem('userDetails', JSON.stringify(userDetails));
+                        document.getElementById('email').value = '';
+                        document.getElementById('password').value = '';
+                        document.getElementById('loginButton').disabled = true;
+                    } else {
+                        displayError();
+                    }
+                });
+        }
+
+        function displayDetails(userDetails) {
+            var userDetailsDiv = document.getElementById('userDetails');
+            userDetailsDiv.style.display = 'block';
+
+            var userInfoDiv = document.getElementById('userInfo');
+            userInfoDiv.innerHTML = `
+                <p>Email: ${userDetails.email}</p>
+                <p>First Name: ${userDetails.firstName}</p>
+                <p>Last Name: ${userDetails.lastName}</p>
+                <p>Phone: ${userDetails.phone}</p>
+            `;
+
+            var userInfoSpan = document.getElementById('guest');
+            userInfoSpan.innerHTML = 'Welcome ' + userDetails.firstName;
+        }
+
+        function displayError() {
+            var resultDiv = document.getElementById('result');
+            resultDiv.style.color = 'red';
+            resultDiv.innerHTML = 'Invalid email or password. Please try again.';
+        }
+
+        function logout() {
+            sessionStorage.removeItem('userName');
+            sessionStorage.removeItem('userDetails');
+            document.getElementById('userDetails').style.display = 'none';
+            document.getElementById('loginForm').style.display = 'block';
+            document.getElementById('result').innerHTML = 'Successfully logged out.';
+            document.getElementById('email').value = '';
+            document.getElementById('password').value = '';
+            document.getElementById('loginButton').disabled = false;
+        }
+
+        function showUserDetails() {
+            var userName = sessionStorage.getItem('userName');
+            var userDetailsJSON = sessionStorage.getItem('userDetails');
+            var userDetails = userDetailsJSON ? JSON.parse(userDetailsJSON) : {};
+
+            var userInfoSpan = document.getElementById('guest');
+            userInfoSpan.innerHTML = 'Welcome ' + userName;
+
+            var userDetailsDiv = document.getElementById('userDetails');
+
+            if (getCurrentPage() === 'signin.html') {
+                userDetailsDiv.style.display = 'block';
+                document.getElementById('loginButton').disabled = true;
+                displayDetails(userDetails);
+            } else {
+                userDetailsDiv.style.display = 'none';
+            }
+        }
+
+        function showSignupForm() {
+            document.getElementById('loginForm').style.display = 'none';
+            document.getElementById('signupForm').style.display = 'block';
+        }
+
+        function showLoginForm() {
+            document.getElementById('signupForm').style.display = 'none';
+            document.getElementById('loginForm').style.display = 'block';
+        }
+
+        function signup() {
+            var signupEmail = document.getElementById('signupEmail').value;
+            var signupPassword = document.getElementById('signupPassword').value;
+            var firstName = document.getElementById('firstName').value;
+            var lastName = document.getElementById('lastName').value;
+            var phone = document.getElementById('phone').value;
+
+            // Check if any field is empty
+            if (!signupEmail || !signupPassword || !firstName || !lastName || !phone) {
+                alert('Please fill in all fields.');
+                return;
+            }
+
+            // Assuming 'users.csv' is in the same directory
+            var userRow = `${signupEmail},${signupPassword},${firstName},${lastName},${phone}\n`;
+
+            // Save to 'users.csv'
+            fetch('users.csv', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'text/plain',
+                },
+                body: userRow,
+            })
+            .then(response => {
+                if (response.ok) {
+                    // Successful signup
+                    alert('Account created!');
+                    showLoginForm(); // Redirect to login form
+                } else {
+                    // Handle errors
+                    console.error('Failed to save user details.');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+
+</body>
+</html>

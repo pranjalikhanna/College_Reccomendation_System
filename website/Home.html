@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Recommendation System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>College Recommendation System</h1>
+        <div id="user-info">
+            <span id="guest">Welcome Guest</span>
+        </div>
+    </header>
+    <div class="container">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="search-by-subject.html">Search by Subject</a>
+            <a href="bysubjectandscore.html">Search by Score</a>
+            <a href="byfaculty.html">Get best by no. of Faculty</a>
+            <a href="about.html">About</a>
+            <a href="signin.html">Account</a>
+        </nav>
+        <script>
+            function checkLogin() {
+                var email = document.getElementById('email').value;
+                var password = document.getElementById('password').value;
+
+                fetch('users.csv')
+                    .then(response => response.text())
+                    .then(data => {
+                        var rows = data.split('\n');
+                        var found = false;
+                        var userDetails = {};
+
+                        for (var i = 1; i < rows.length; i++) {
+                            var columns = rows[i].split(',');
+                            if (columns[0] === email && columns[1] === password) {
+                                found = true;
+                                userDetails = {
+                                    name: columns[2],
+                                    phone: columns[4]
+                                };
+                                break;
+                            }
+                        }
+
+                        if (found) {
+                            displayDetails(userDetails);
+                            sessionStorage.setItem('userName', userDetails.name);
+                        } else {
+                            displayError();
+                        }
+                    });
+            }
+
+            function displayDetails(userDetails) {
+                var resultDiv = document.getElementById('result');
+                resultDiv.style.color = 'black';
+                resultDiv.innerHTML = 'Welcome, ' + userDetails.name + '. Phone: ' + userDetails.phone;
+
+                var userInfoSpan = document.getElementById('guest');
+                userInfoSpan.innerHTML = 'Welcome ' + userDetails.name;
+            }
+
+            function displayError() {
+                var resultDiv = document.getElementById('result');
+                resultDiv.style.color = 'red';
+                resultDiv.innerHTML = 'Invalid email or password. Please try again.';
+            }
+
+            window.onload = function () {
+                var userName = sessionStorage.getItem('userName');
+                if (userName) {
+                    var userInfoSpan = document.getElementById('guest');
+                    userInfoSpan.innerHTML = 'Welcome ' + userName;
+                }
+            };
+
+            window.addEventListener('scroll', function () {
+                var footer = document.querySelector('footer');
+                if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+                    footer.classList.add('show');
+                } else {
+                    footer.classList.remove('show');
+                }
+            });
+        </script>
+
+        <div class="container">
+
+            <main>
+                
+                <section id="home">
+                    <h2>Home Page</h2>
+                        <div id="randomImage">
+                            <!-- Image will be dynamically loaded here -->
+                        </div>
+                        <script>
+                            // Array of image file names in the "images" folder
+                            var imageFiles = ["1.jpg"];
+                    
+                            // Get a random index to select a random image
+                            var randomIndex = Math.floor(Math.random() * imageFiles.length);
+                    
+                            // Create an image element
+                            var imageElement = document.createElement("img");
+                    
+                            // Set the source attribute to the randomly selected image
+                            imageElement.src = "images/" + imageFiles[randomIndex];
+                    
+                            // Set alt attribute for accessibility
+                            imageElement.alt = "Random Image";
+                    
+                            // Append the image element to the "randomImage" div
+                            document.getElementById("randomImage").appendChild(imageElement);
+                        </script>
+                        <p>Welcome to the College Recommendation System. This system helps you find the right college based on
+                            your preferences and criteria.</p>
+                    </section>
+                    
+                    <p>Welcome to the College Recommendation System. This system helps you find the right college based on
+                        your preferences and criteria. .
+                        In the dynamic realm of higher education, postgraduate studies have evolved into a realm of
+                        heightened specialization, diversity, and competition. Navigating this complex landscape poses a
+                        formidable challenge for aspiring students, prompting the need for a sophisticated College
+                        Recommendation System (CRS). This system stands as a pivotal instrument, harnessing advanced
+                        technologies and data analytics to streamline decision-making processes. By delving into the
+                        intricate details of individual preferences, academic backgrounds, and career aspirations, the CRS
+                        crafts personalized recommendations.
+                        In essence, the CRS acts as a virtual guide, employing algorithms and analytical tools to sift
+                        through the myriad of postgraduate options. Its proficiency lies in distilling vast datasets on
+                        program curricula, faculty expertise, and career trajectories to present tailored suggestions to
+                        each student. As higher education continually transforms, the CRS remains agile, incorporating
+                        real-time updates and user feedback to ensure its recommendations stay current and pertinent. In
+                        this way, the CRS empowers aspiring postgraduates, providing them with the clarity and insight
+                        needed to embark on their academic journeys with confidence and purpose.</p>
+                </section>
+            </main>
+
+        </div>
+        <!-- Footer outside the main section -->
+        <footer>
+            <p>College Recommendation System Version 2023 Test</p>
+        </footer>
+
+</body>
+</html>
