@@ -1,0 +1,393 @@
+College Name,City,State,Type,Major Subjects,GRE_score ,Gmat score,Enrolled Students,Faculties,Average Fees ($), Size,Campus_Type,Graduation rate,Placement Rate,Year Founded,Sports,Faculty,Publications
+Adelphi University,Garden City,New York,Private,Psychology  Nursing,299,500,56010,1200,19733,Very Large,Suburban,99,86,1896,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Ariel D. Procaccia,47
+Alliant International University,San Diego,California,Private,Computer_Science  Business,290,570,63530,1367,18412,Large,Urban,97,97,2001,Football  Basketball  Badminton  Cricket,"	Tuomas Sandholm",35
+American University,Washington  D.C.,District of Columbia,Private,Psychology  Business,304,610,55587,2249,19706,Large,Rural,83,99,1893,Football  Basketball  Badminton  Cricket,Fei Fang,12
+Andrews University,Berrien Springs,Michigan,Private,Biology  Health_Sciences,280,600,55878,1438,15768,Medium,Suburban,83,94,1874,Football Volleyball  Badminton  Cricket,J. Andrew Bagnell,10
+Arizona State University,Tempe,Arizona,Public,Biology  Computer_Science  Mathematics,310,700,59950,1911,19056,Medium,Suburban,91,93,1885,Football Volleyball  Badminton  Cricket,William W. Cohen,8
+Arkansas State University,Jonesboro,Arkansas,Public,Agriculture  Nursing,280,450,56169,1596,19262,Small,Rural,91,92,1909,Basketball  Badminton  Cricket,Barnabais Paczos,8
+Auburn University,Auburn,Alabama,Private,Health_Science  Business,309,605,60963,2344,18806,Small,Urban,94,80,1856,Basketball  Badminton  Cricket,Eric P. Xing,8
+Augusta University,Augusta,Georgia,Private,Nursing  Psychology,300,550,61710,1737,17392,Medium,Urban,92,90,1828,Football Volleyball  Badminton  Cricket,Martial Hebert ,7
+Aurora University,Aurora,Illinois,Private,Psychology  Computer_Science,309,560,58680,1341,19551,Very Large,Suburban,100,78,1893,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Jaime G. Carbonell ,6
+Azusa Pacific University,Azusa,California,Private,Biology  Physics,300,500,60489,2105,15216,Small,Suburban,90,85,1899,Basketball  Badminton  Cricket,Tom M. Mitchell,6
+Baker University,Baldwin City,Kansas,Private,Business  Agriculture,267,710,58720,2304,21021,Very Large,Suburban,87,76,1858,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Adnan Darwiche ",19
+Ball State University,Muncie,Indiana,Private,Physics  Health_Science  Biology,149,450,60984,1231,21618,Large,Suburban,83,81,1918,Football  Basketball  Badminton  Cricket,Richard E. Korf ,19
+Barry University,Miami Shores,Florida,Private,Nursing  Business,300,425,60870,1615,17692,Very Large,Rural,92,82,1940,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Guy Van den Broeck ,15
+Baylor University,Waco,Texas,Private,Psychology  Agriculture,309,624,62404,1473,16175,Medium,Rural,88,77,1845,Football Volleyball  Badminton  Cricket,Song-Chun Zhu,13
+Bellarmine University,Louisville,Kentucky,Private,Business  Nursing  Computer_Science,290,460,56966,1374,18284,Small,Urban,91,80,1950,Basketball  Badminton  Cricket,Judea Pearl ,9
+Belmont University,Nashville,Tennessee,Private,Criminal_Justice  Health_Science,300,620,58866,1488,21785,Very Large,Suburban,97,76,1890,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Kai-Wei Chang",4
+Benedictine University,Lisle,Illinois,Private,Psychology  Nursing,299,550,61015,1671,21484,Small,Suburban,87,75,1887,Basketball  Badminton  Cricket,"	Quanquan Gu",4
+Bethel University (MN),St. Paul,Minnesota,Private,Business  Physics,310,710,52895,1729,17717,Very Large,Rural,90,99,1871,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Yizhou Sun ",3
+Binghamton University--SUNY,Binghamton,New York,Public,Computer_Science  Business  Design,312,600,58843,1964,19287,Small,Rural,100,80,1946,Basketball  Badminton  Cricket,"	Carlo Zaniolo ",2
+Biola University,La Mirada,California,Private,Biology  Psychology,290,525,43022,2326,19920,Very Large,Suburban,96,85,1908,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Eleazar Eskin ",34
+Boise State University,Boise,Idaho,Private,Business  Nursing,300,550,55468,2203,16124,Medium,Suburban,90,94,1932,Football Volleyball  Badminton  Cricket,"	Yevgeniy Vorobeychik",17
+Boston College,Chestnut Hill,Massachusetts,Private,Psychology  Business  Agriculture,307,640,44115,1829,20869,Medium,Suburban,85,94,1863,Football Volleyball  Badminton  Cricket,"	William Yeo",16
+Boston University,Boston,Massachusetts,Private,Physics  Criminal_Justice,325,710,59957,2315,17612,Medium,Suburban,93,78,1839,Football Volleyball  Badminton  Cricket,"	Weixiong Zhang ",14
+Bowling Green State University,Bowling Green,Ohio,Private,Design  Computer_Science  Health_Science,300,550,53232,2443,15236,Large,Suburban,95,97,1910,Football  Basketball  Badminton  Cricket,"	Yixin Chen ",11
+Brandeis University,Waltham,Massachusetts,Private,Psychology  Biology,307,604,58924,1406,18786,Very Large,Rural,83,82,1948,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Sanmay Das",8
+Brandman University,Irvine,California,Private,Agriculture  Nursing,295,610,53666,2455,16424,Large,Urban,87,92,1958,Football  Basketball  Badminton  Cricket,"	Brendan Juba",5
+Brigham Young University--Provo,Provo,Utah,Private,Business  Health_Science  Criminal_Justice,274,680,60275,1759,16338,Large,Rural,98,77,1875,Football  Basketball  Badminton  Cricket,"	Roman Garnett ",4
+Brown University,Providence,Rhode Island,Private,Biology  Computer_Science,300,700,56500,1985,16832,Very Large,Urban,93,89,1764,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Chien-Ju Ho ",2
+California Institute of Technology,Pasadena,California,Private,Design  Physics,322,620,63000,1298,21947,Medium,Urban,93,89,1891,Football Volleyball  Badminton  Cricket,"	Michael R. Brent ",1
+California State University--Fresno,Fresno,California,Public,Agriculture  Business,308,530,44196,1745,17950,Large,Suburban,98,78,1911,Football  Basketball  Badminton  Cricket,"	Heng Huang ",56
+Campbell University,Buies Creek,North Carolina,Private,Criminal_Justice  Psychology,298,450,28658,1893,20854,Medium,Urban,90,86,1887,Football Volleyball  Badminton  Cricket,"	Milos Hauskrecht",6
+Cardinal Stritch University,Milwaukee,Wisconsin,Private,Nursing  Biology,300,607,36776,2297,19207,Large,Rural,98,97,1937,Football  Basketball  Badminton  Cricket,"	Rebecca Hwa ",3
+Carnegie Mellon University,Pittsburgh,Pennsylvania,Private,Computer_Science  Physics,324,705,59770,1272,17105,Large,Urban,90,85,1900,Football  Basketball  Badminton  Cricket,"	Diane J. Litman",3
+Carson-Newman University,Jefferson City,Tennessee,Private,Health_Science  Design,299,550,44487,1315,15207,Small,Suburban,100,85,1851,Basketball  Badminton  Cricket,"	Shi-Kuo Chang",1
+Case Western Reserve University,Cleveland,Ohio,Private,Agriculture  Business,314,637,59344,2457,20173,Medium,Urban,95,96,1826,Football Volleyball  Badminton  Cricket,"	Janyce Wiebe",1
+Central Michigan University,Mount Pleasant,Michigan,Private,Nursing  Criminal_Justice,299,513,61706,2275,16757,Small,Urban,88,99,1892,Basketball  Badminton  Cricket,"	Milind Tambe ",43
+Chapman University,Orange,California,Private,Business  Psychology  Physics,303,623,43709,2176,19810,Large,Suburban,83,76,1861,Football  Basketball  Badminton  Cricket,"	Sven Koenig",20
+Chatham University,Pittsburgh,Pennsylvania,Private,Physics  Health_Science,306,610,33794,2130,17012,Medium,Rural,98,86,1869,Football Volleyball  Badminton  Cricket,"	Yan Liu",7
+Clark Atlanta University,Atlanta,Georgia,Private,Psychology  Biology,290,318,44408,1390,17776,Very Large,Suburban,93,96,1988,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Shaddin Dughmi",4
+Clark University,Worcester,Massachusetts,Private,Computer_Science  Business  Design,302,580,40032,1898,16412,Medium,Rural,98,89,1887,Football Volleyball  Badminton  Cricket,Fei Sha,4
+Clarke University,Dubuque,Iowa,Private,Nursing  Criminal_Justice,299,590,46467,2313,15373,Small,Urban,99,83,1843,Basketball  Badminton  Cricket,"	David Kempe 0001",3
+Clarkson University,Potsdam,New York,Private,Business  Physics,299,550,59816,2330,21907,Very Large,Rural,83,97,1896,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Ramakant Nevatia",3
+Clemson University,Clemson,South Carolina,Private,Design  Mathematics,293,560,60391,1746,17502,Very Large,Rural,93,83,1889,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Ting Chen ",2
+Cleveland State University,Cleveland,Ohio,Private,Nursing  Biology,299,500,54020,2253,19084,Small,Suburban,100,91,1964,Basketball  Badminton  Cricket,"	Xiang Ren ",2
+Colorado School of Mines,Golden,Colorado,Private,Criminal_Justice  Psychology,160,640,60814,1861,21035,Small,Suburban,86,84,1874,Basketball  Badminton  Cricket,"	Nora Ayanian ",1
+Colorado State University,Fort Collins,Colorado,Public,Computer_Science  Health_Science,274,550,38608,2400,19795,Very Large,Rural,99,84,1870,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Abhinav Gupta",57
+Colorado Technical University,Colorado Springs,Colorado,Private,Business  Agriculture,260,640,34316,2385,19110,Very Large,Urban,88,99,1965,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Martial Hebert",54
+Columbia University,New York,New York,Private,Design  Criminal_Justice,326,729,31120,2267,20193,Small,Urban,97,79,1754,Basketball  Badminton  Cricket,"	Deva Ramanan ",42
+Concordia University Wisconsin,Mequon,Wisconsin,Private,Nursing  Mathematics,260,580,57470,1318,17161,Small,Suburban,90,77,1881,Basketball  Badminton  Cricket,"	Simon Lucey",30
+Cornell University,Ithaca,New York,Private,Design  Biology,322,760,57592,2377,17853,Very Large,Urban,88,87,1865,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Srinivasa G. Narasimhan ",27
+Creighton University,Omaha,Nebraska,Public,Psychology  Computer_Science,310,670,35019,2405,20220,Small,Rural,86,83,1878,Basketball  Badminton  Cricket,"	Eric P. Xing",22
+CUNY--City College,New York,New York,Private,Health_Science  Psychology,299,550,59702,1490,19673,Small,Urban,91,91,1847,Basketball  Badminton  Cricket,"	Takeo Kanade",21
+Daemen College,Amherst,New York,Private,Nursing  Business  Mathematics,274,607,28794,2225,18178,Small,Rural,96,82,1947,Basketball  Badminton  Cricket,"	Katerina Fragkiadaki",9
+Dallas Baptist University,Dallas,Texas,Private,Business  Agriculture,207,425,59900,1464,15251,Small,Urban,96,86,1898,Basketball  Badminton  Cricket,"	J. Andrew Bagnell ",8
+Dartmouth College,Hanover,New Hampshire,Private,Computer_Science  Physics,282,726,21683,1408,19663,Very Large,Suburban,89,76,1769,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Louis-Philippe Morency ",7
+Delaware State University,Dover,Delaware,Public,Business  Nursing,256,445,58526,1621,20902,Large,Rural,97,95,1891,Football  Basketball  Badminton  Cricket,"	Devi Parikh",49
+DePaul University,Chicago,Illinois,Private,Health_Science  Design,205,570,55860,1674,19842,Small,Rural,90,95,1898,Basketball  Badminton  Cricket,"	James M. Rehg ",30
+Drake University,Des Moines,Iowa,Private,Business  Psychology  Physics,279,640,54760,2375,16907,Medium,Rural,94,96,1881,Football Volleyball  Badminton  Cricket,"	Dhruv Batra ",27
+Drexel University,Philadelphia,Pennsylvania,Private,Mathematics  Nursing,310,570,57591,1529,15401,Medium,Suburban,86,75,1891,Football Volleyball  Badminton  Cricket,"	James Hays ",20
+Duke University,Durham,North Carolina,Private,Psychology  Biology,317,710,38636,1426,15555,Very Large,Suburban,90,94,1838,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Irfan A. Essa",11
+Duquesne University,Pittsburgh,Pennsylvania,Private,Business  Nursing  Agriculture,305,500,34124,1894,18779,Very Large,Rural,96,81,1878,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Judy Hoffman ",11
+D'Youville College,Buffalo,New York,Private,Nursing  Business,280,450,39906,1816,16709,Medium,Suburban,97,81,1908,Football Volleyball  Badminton  Cricket,"	Hongyuan Zha ",10
+East Carolina University,Greenville,North Carolina,Private,Design  Criminal_Justice,270,450,59870,1479,21334,Small,Urban,95,96,1907,Basketball  Badminton  Cricket,"	Gregory D. Abowd",3
+East Tennessee State University,Johnson City,Tennessee,Private,Psychology  Computer_Science,304,535,36476,1761,21708,Small,Urban,99,84,1911,Basketball  Badminton  Cricket,"	Le Song ",2
+Eastern Michigan University,Ypsilanti,Michigan,Private,Business  Agriculture,310,550,33005,1250,17343,Very Large,Urban,91,75,1849,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Thoma Platz",1
+Edgewood College,Madison,Wisconsin,Private,Biology  Health_Science,300,430,41192,1234,17965,Very Large,Rural,84,91,1927,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Larry S. Davis ",52
+Elon University,Elon,North Carolina,Private,Business  Psychology  Mathematics,297,500,55531,1235,18965,Large,Rural,94,78,1889,Football  Basketball  Badminton  Cricket,"	Rama Chellappa",39
+Emory University,Atlanta,Georgia,Private,Computer_Science  Physics,310,709,55776,1291,16052,Medium,Rural,90,86,1836,Football Volleyball  Badminton  Cricket,"	David W. Jacobs",18
+Ferris State University,Big Rapids,Michigan,Private,Criminal_Justice  Nursing,290,562,38354,1763,15453,Small,Urban,96,95,1884,Basketball  Badminton  Cricket,"	Yiannis Aloimonos ",11
+Florida A&M University,Tallahassee,Florida,Private,Health_Science  Psychology,300,700,60236,1998,15931,Medium,Rural,87,83,1887,Football Volleyball  Badminton  Cricket,"	Abhinav Shrivastava",10
+Florida Atlantic University,Boca Raton,Florida,Private,Mathematics  Design,325,500,40087,1754,15476,Very Large,Rural,93,93,1961,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Tom Goldstein",6
+Florida Institute of Technology,Melbourne,Florida,Private,Business  Agriculture,299,500,36964,1283,18512,Large,Rural,86,84,1958,Football  Basketball  Badminton  Cricket,"	Hal Daua",3
+Florida International University,Miami,Florida,Private,Psychology  Biology,257,550,33843,2002,17568,Small,Rural,95,97,1965,Basketball  Badminton  Cricket,"	Matthias Zwicker",2
+Florida State University,Tallahassee,Florida,Private,Design  Criminal_Justice,301,545,47500,1785,19815,Very Large,Rural,93,95,1851,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Jordan L. Boyd-Graber",1
+Fordham University,New York,New York,Private,Business  Psychology,310,650,50232,1996,18493,Medium,Rural,96,86,1841,Football Volleyball  Badminton  Cricket,"	Ramani Duraiswami",1
+Gallaudet University,Washington  D.C.,District of Columbia,Private,Mathematics  Health_Science,160,640,37712,2404,20106,Small,Suburban,93,90,1864,Basketball  Badminton  Cricket,"	Fei-Fei Li",76
+Gannon University,Erie,Pennsylvania,Private,Nursing  Business,274,550,53051,1601,16028,Very Large,Rural,93,94,1925,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Silvio Savarese",51
+Gardner-Webb University,Boiling Springs,North Carolina,Private,Biology  Health_Science,260,640,33253,1507,18191,Medium,Rural,96,79,1905,Football Volleyball  Badminton  Cricket,"	Leonidas J. Guibas ",14
+George Fox University,Newberg,Oregon,Private,Physics  Computer_Science,326,729,51334,2292,15974,Large,Suburban,95,77,1891,Football  Basketball  Badminton  Cricket,"	Michael S. Bernstein",3
+George Mason University,Fairfax,Virginia,Private,Business  Nursing  Agriculture,260,580,6120,1439,16202,Large,Rural,100,86,1957,Football  Basketball  Badminton  Cricket,"	Percy Liang",2
+George Washington University,Washington  D.C.,District of Columbia,Private,Mathematics  Design,322,760,48470,2379,19599,Small,Rural,99,89,1821,Basketball  Badminton  Cricket,"	Pat Hanrahan",1
+Georgetown University,Washington  D.C.,District of Columbia,Private,Business  Biology,310,670,29916,1633,16806,Medium,Urban,89,84,1789,Football Volleyball  Badminton  Cricket,"	Sachin Katti ",1
+Georgia Institute of Technology,Atlanta,Georgia,Private,Computer_Science  Physics,299,550,27909,1471,17969,Very Large,Rural,87,86,1885,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Jure Leskovec",1
+Georgia Southern University,Statesboro,Georgia,Private,Business  Nursing,274,607,39800,2258,19049,Small,Rural,96,77,1906,Basketball  Badminton  Cricket,"	Mubarak Shah",69
+Georgia State University,Atlanta,Georgia,Private,Health_Science  Design,207,425,38725,2254,18715,Small,Rural,87,85,1913,Basketball  Badminton  Cricket,"	Ali Borji",15
+Gonzaga University,Spokane,Washington,Private,Criminal_Justice  Health_Science,282,726,28916,1258,20178,Large,Suburban,88,83,1887,Football  Basketball  Badminton  Cricket,"	Boqing Gong",11
+Grand Canyon University,Phoenix,Arizona,Private,Agriculture  Mathematics,256,445,45766,1790,20812,Medium,Urban,97,80,1949,Football Volleyball  Badminton  Cricket,"	Guo-Jun Qi ",11
+Hampton University,Hampton,Virginia,Private,Psychology  Biology,205,570,39766,1919,16273,Medium,Rural,99,85,1868,Football Volleyball  Badminton  Cricket,"	Hassan Foroosh",9
+Harding University,Searcy,Arkansas,Private,Biology  Health_Science  Design,279,640,56920,1443,16202,Small,Rural,94,86,1924,Basketball  Badminton  Cricket,"	Eric P. Xing",74
+Harvard University,Cambridge,Massachusetts,Private,Mathematics  Biology,310,570,51660,1485,17997,Small,Urban,83,81,1636,Basketball  Badminton  Cricket,Pradeep Ravikumar ,58
+Hofstra University,Hempstead,New York,Private,Business  Psychology,317,710,43496,1624,15148,Medium,Urban,93,76,1935,Football Volleyball  Badminton  Cricket,"	Christos Faloutsos ",40
+Howard University,Washington  D.C.,District of Columbia,Private,Mathematics  Health_Science,305,500,31569,1857,15788,Large,Urban,90,89,1867,Football  Basketball  Badminton  Cricket,"	Barnabás Póczos",34
+Husson University,Bangor,Maine,Private,Computer_Science  Physics,280,450,28080,1236,19767,Very Large,Urban,87,87,1898,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Aarti Singh",21
+Idaho State University,Pocatello,Idaho,Private,Design  Criminal_Justice,270,450,28194,2367,20138,Large,Urban,86,94,1901,Football  Basketball  Badminton  Cricket,"	Maria-Florina Balcan ",17
+Illinois Institute of Technology,Chicago,Illinois,Private,Mathematics  Design,304,535,43319,2269,15086,Large,Urban,83,96,1940,Football  Basketball  Badminton  Cricket,"	David P. Woodruff ",17
+Illinois State University,Normal,Illinois,Private,Business  Psychology,310,550,36880,1592,18237,Small,Urban,95,83,1857,Basketball  Badminton  Cricket,"	Geoffrey J. Gordon ",14
+Immaculata University,Immaculata,Pennsylvania,Private,Nursing  Business,300,430,54819,1365,16430,Very Large,Rural,86,87,1920,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	J. Zico Kolter ",14
+Indiana State University,Terre Haute,Indiana,Private,Business  Nursing  Agriculture,299,500,52864,1521,18744,Medium,Rural,95,86,1865,Football Volleyball  Badminton  Cricket,"	Yiming Yang",12
+Indiana University of Pennsylvania,Indiana,Pennsylvania,Public,Biology  Health_Science,290,570,31956,1506,20355,Very Large,Suburban,98,85,1875,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Michael I. Jordan ",75
+Indiana University--Bloomington,Bloomington,Indiana,Private,Business  Computer_Science,304,610,38312,1913,19842,Large,Rural,95,86,1820,Football  Basketball  Badminton  Cricket,"	Martin J. Wainwright",32
+Indiana University-Purdue University--Indianapolis,Indianapolis,Indiana,Private,Computer_Science  Biology,280,600,39308,2340,17854,Small,Urban,87,81,1969,Basketball  Badminton  Cricket,"	Pieter Abbeel ",31
+Inter American University of Puerto Rico--Metropolitan Campus,San Juan,Puerto Rico,Private,Design  Criminal_Justice,310,700,31389,2234,20133,Small,Suburban,88,80,1912,Basketball  Badminton  Cricket,"	Sergey Levine",26
+Inter American University of Puerto Rico--San German,San German,Puerto Rico,Private,Computer_Sciences  Agriculture  Health_Sciences,280,450,50302,1944,21191,Very Large,Suburban,91,94,1912,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Trevor Darrell",22
+Iowa State University of Science and Technology,Ames,Iowa,Public,Psychology  Nursing,309,605,44524,1825,15562,Medium,Rural,90,93,1858,Football Volleyball  Badminton  Cricket,"	Peter L. Bartlett",20
+Jackson State University,Jackson,Mississippi,Public,Nursing  Business,300,550,57136,2156,15075,Medium,Urban,84,81,1877,Football Volleyball  Badminton  Cricket,"	Benjamin Recht",15
+Johns Hopkins University,Baltimore,Maryland,Private,Biology  Health_Sciences,309,560,47498,1462,19608,Small,Suburban,96,97,1876,Basketball  Badminton  Cricket,"	Stuart J. Russell",10
+Kansas State University,Manhattan,Kansas,Private,Biology  Computer_Science,300,500,37379,1536,20729,Large,Rural,93,88,1863,Football  Basketball  Badminton  Cricket,"	Moritz Hardt ",9
+Keiser University,Fort Lauderdale,Florida,Private,Agriculture  Nursing,267,710,33386,1981,20000,Medium,Urban,84,97,1977,Football Volleyball  Badminton  Cricket,"	Dan Klein",9
+Kennesaw State University,Kennesaw,Georgia,Private,Health_Science  Business,157,450,48824,1544,16729,Very Large,Suburban,84,84,1963,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Jure Leskovc",28
+Kent State University,Kent,Ohio,Private,Nursing  Psychology,300,425,34801,1859,19142,Small,Urban,89,78,1910,Basketball  Badminton  Cricket,Percy Liang,27
+Lamar University,Beaumont,Texas,Private,Biology  Physics,309,624,34667,1879,18509,Very Large,Rural,92,98,1923,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Stefano Ermon",22
+Lehigh University,Bethlehem,Pennsylvania,Private,Business  Agriculture,290,460,43820,1740,17468,Large,Suburban,88,97,1865,Football  Basketball  Badminton  Cricket,"	John C. Duchi ",21
+Lesley University,Cambridge,Massachusetts,Private,Physics  Health_Science,300,620,31787,1603,17610,Large,Urban,84,81,1909,Football  Basketball  Badminton  Cricket,"	Christophe",18
+Liberty University,Lynchburg,Virginia,Private,Criminal_Justice  Health_Science,299,550,53472,1254,20602,Medium,Urban,85,86,1971,Football Volleyball  Badminton  Cricket,"	Fei-Fei Li",13
+Lincoln Memorial University,Harrogate,Tennessee,Private,Physics  Computer_Science,310,710,17324,1314,21704,Very Large,Urban,99,85,1897,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Christopher D. Manning ",12
+Lindenwood University,Saint Charles,Missouri,Private,Business  Nursing  Agriculture,312,600,31434,1238,18293,Medium,Rural,96,96,1827,Football Volleyball  Badminton  Cricket,"	Emma Brunskill ",11
+Lipscomb University,Nashville,Tennessee,Private,Mathematics  Design,290,525,29438,1566,21336,Large,Rural,90,75,1891,Football  Basketball  Badminton  Cricket,"	Leonidas J. Guibas ",10
+Long Island University,Brookville,New York,Private,Health_Science  Design,300,550,52756,1363,21677,Very Large,Urban,97,78,1926,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Gregory Valiant ",10
+Louisiana State University--Baton Rouge,Baton Rouge,Louisiana,Private,Criminal_Justice  Health_Science,307,640,19976,2334,18549,Very Large,Rural,94,94,1860,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Stefanie Jegelka",23
+Louisiana Tech University,Ruston,Louisiana,Private,Agriculture  Mathematics,325,710,33928,1767,20981,Small,Urban,95,92,1894,Basketball  Badminton  Cricket,"	Tommi S. Jaakkola ",22
+Loyola Marymount University,Los Angeles,California,Private,Psychology  Biology,300,550,43890,1679,15231,Medium,Urban,95,80,1911,Football Volleyball  Badminton  Cricket,"	Antonio Torralba 0001 ",16
+Loyola University Chicago,Chicago,Illinois,Private,Mathematics  Health_Science,307,604,57214,1240,21240,Medium,Rural,83,93,1870,Football Volleyball  Badminton  Cricket,"	David Sontag",16
+Loyola University New Orleans,New Orleans,Louisiana,Private,Computer_Science  Physics,295,610,50640,1585,21374,Medium,Urban,92,83,1912,Football Volleyball  Badminton  Cricket,"	Devavrat Shah ",13
+Marquette University,Milwaukee,Wisconsin,Private,Design  Criminal_Justice,274,680,24504,2332,21285,Very Large,Suburban,96,87,1881,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	John V. Guttag ",11
+Marshall University,Huntington,West Virginia,Private,Mathematics  Design,300,700,28034,1845,19382,Small,Suburban,100,75,1837,Basketball  Badminton  Cricket,"	Tamara Broderick",9
+Mary Baldwin University,Staunton,Virginia,Private,Business  Psychology,322,620,30450,1389,16222,Small,Suburban,91,76,1842,Basketball  Badminton  Cricket,"	William T. Freeman ",9
+Maryville University of St. Louis,St. Louis,Missouri,Private,Nursing  Business,308,530,54370,1513,21126,Very Large,Urban,83,87,1872,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Alan S. Willsky",8
+Massachusetts Institute of Technology,Cambridge,Massachusetts,Private,Business  Nursing  Agriculture,298,450,42012,1616,21764,Small,Suburban,91,88,1861,Basketball  Badminton  Cricket,"	Ankur Moitra ",6
+Mercer University,Macon,Georgia,Private,Biology  Health_Science,300,607,17112,2237,20723,Large,Urban,93,86,1833,Football  Basketball  Badminton  Cricket,"	Kilian Q. Weinberger ",31
+Metropolitan State University,Denver,Colorado,Private,Computer_Science  Biology,324,705,32409,1895,20567,Small,Suburban,93,77,1971,Basketball  Badminton  Cricket,"	Thorsten Joachims",24
+Miami University--Oxford,Oxford,Ohio,Private,Design  Criminal_Justice,299,550,49335,1448,18670,Very Large,Rural,98,93,1809,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Karthik Sridharan",17
+Michigan State University,East Lansing,Michigan,Public,Computer_Sciences  Agriculture  Health_Sciences,314,637,46880,2361,18453,Medium,Suburban,90,95,1855,Football Volleyball  Badminton  Cricket,"	Jon M. Kleinberg",14
+Michigan Technological University,Houghton,Michigan,Private,Physics  Health_Science,299,513,44890,1896,20489,Very Large,Rural,100,99,1885,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,"	Andrew Gordon Wilson",12
+Middle Tennessee State University,Murfreesboro,Tennessee,Private,Criminal_Justice  Health_Science,286,490,31608,2456,20923,Medium,Suburban,90,79,1911,Football Volleyball  Badminton  Cricket,"	Daniel D. Lee",10
+Misericordia University,Dallas,Pennsylvania,Private,Physics  Computer_Science,207,550,25116,1278,18453,Small,Suburban,92,91,1924,Basketball  Badminton  Cricket,"	Christopher De Sa ",9
+Mississippi College,Clinton,Mississippi,Private,Business  Nursing  Agriculture,302,500,52156,1833,18794,Small,Suburban,89,83,1826,Basketball  Badminton  Cricket,"	Carla P. Gomes ",8
+Mississippi State University,Starkville,Mississippi,Private,Mathematics  Design,307,538,45962,2324,15613,Small,Suburban,95,84,1878,Basketball  Badminton  Cricket,"	David M. Mimno ",73
+Missouri State University,Springfield,Missouri,Private,Health_Science  Design,290,560,52979,1540,15284,Small,Urban,87,78,1905,Basketball  Badminton  Cricket,"	Bart Selman",34
+Missouri University of Science and Technology,Rolla,Missouri,Private,Criminal_Justice  Health_Science,299,550,35360,1251,21079,Large,Rural,100,90,1870,Football  Basketball  Badminton  Cricket,Richard Moore,22
+Montana State University,Bozeman,Montana,Private,Agriculture  Mathematics,290,530,43112,1560,15235,Large,Urban,97,76,1893,Football  Basketball  Badminton  Cricket,Tara Martin,38
+Montclair State University,Montclair,New Jersey,Private,Business  Psychology,293,495,45850,1461,16415,Large,Urban,84,89,1908,Football  Basketball  Badminton  Cricket,Pooja Kapoor,35
+Morgan State University,Baltimore,Maryland,Private,Mathematics  Physics,284,426,27002,2144,21063,Small,Urban,92,93,1867,Basketball  Badminton  Cricket,Benjamin Cooper,14
+National Louis University,Chicago,Illinois,Private,Design  Agriculture,310,710,37202,1562,21258,Very Large,Urban,89,81,1886,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Olga Smirnova,33
+New Jersey Institute of Technology,Newark,New Jersey,Private,Computer_Science  Physics,240,590,48609,1830,18908,Medium,Suburban,85,84,1881,Football Volleyball  Badminton  Cricket,Joseph Lee,40
+New Mexico State University,Las Cruces,New Mexico,Public,Business  Nursing,240,750,39776,1279,16697,Very Large,Suburban,98,96,1888,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Carl Allen,38
+New York University,New York,New York,Private,Mathematics  Health_Science,293,495,52352,2232,16407,Large,Urban,83,84,1831,Football  Basketball  Badminton  Cricket,Kimberly King,26
+North Carolina Agricultural and Technical State University,Greensboro,North Carolina,Public,Criminal_Justice  Design,267,710,44838,2148,21921,Large,Suburban,95,84,1891,Football  Basketball  Badminton  Cricket,Linda Taylor,39
+North Carolina State University,Raleigh,North Carolina,Public,Physics  Biology,163,450,31540,1606,18670,Very Large,Rural,88,97,1887,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Diana Murphy,34
+North Dakota State University,Fargo,North Dakota,Public,Computer_Science  Criminal_Justice  Nursing,300,425,19010,1984,21735,Small,Rural,86,82,1890,Basketball  Badminton  Cricket,Li Li,38
+Northeastern University,Boston,Massachusetts,Private,Business  Computer_Science,309,624,43526,1760,16142,Large,Urban,91,89,1898,Football  Basketball  Badminton  Cricket,Sergey Ivanov,32
+Northern Arizona University,Flagstaff,Arizona,Private,Psychology  Nursing,290,460,36579,1995,17098,Medium,Suburban,99,87,1899,Football Volleyball  Badminton  Cricket,Zachary Phillips,17
+Northern Illinois University,DeKalb,Illinois,Private,Computer_Science  Business,300,620,38112,1688,21898,Medium,Suburban,91,80,1895,Football Volleyball  Badminton  Cricket,Alisha Joshi,16
+Northern Kentucky University,Highland Heights,Kentucky,Private,Psychology  Business,299,550,51270,1869,18196,Medium,Rural,92,81,1968,Football Volleyball  Badminton  Cricket,Stephanie Cox,18
+Northwestern University,Evanston,Illinois,Private,Biology  Health_Sciences,310,710,32299,1923,18218,Small,Suburban,99,78,1851,Basketball  Badminton  Cricket,Arjun Singh,19
+Nova Southeastern University,Fort Lauderdale,Florida,Private,Biology  Computer_Science,312,600,20016,1460,20093,Medium,Suburban,93,86,1964,Football Volleyball  Badminton  Cricket,Nancy Turner,36
+Oakland University,Rochester,Michigan,Public,Agriculture  Nursing,290,525,41715,1720,20283,Medium,Urban,90,89,1957,Football Volleyball  Badminton  Cricket,Sanjay Kumar,31
+Ohio State University--Columbus,Columbus,Ohio,Public,Health_Science  Business,300,550,31090,1419,19773,Large,Suburban,93,83,1870,Football  Basketball  Badminton  Cricket,Wei Chen,30
+Ohio University,Athens,Ohio,Public,Nursing  Psychology,307,640,25380,1535,19832,Very Large,Suburban,86,86,1804,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Michael Brown,30
+Oklahoma City University,Oklahoma City,Oklahoma,Private,Psychology  Computer_Science,325,710,22467,1622,17041,Large,Suburban,92,96,1904,Football  Basketball  Badminton  Cricket,John Smith,43
+Oklahoma State University,Stillwater,Oklahoma,Public,Biology  Physics,300,550,27472,2370,17202,Medium,Suburban,87,91,1890,Football Volleyball  Badminton  Cricket,Maria Garcia,35
+Old Dominion University,Norfolk,Virginia,Private,Business  Agriculture,307,604,25876,2219,19403,Very Large,Urban,86,87,1930,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Pamela Ward,17
+Oregon State University,Corvallis,Oregon,Public,Physics  Health_Science,295,610,38430,1903,16027,Medium,Suburban,91,84,1868,Football Volleyball  Badminton  Cricket,Kevin Hall,31
+Our Lady of the Lake University,San Antonio,Texas,Private,Nursing  Business,274,680,18964,2262,15097,Large,Rural,100,81,1895,Football  Basketball  Badminton  Cricket,Jessica Wright,17
+Pace University,New York,New York,Private,Psychology  Agriculture,307,538,51360,1334,17661,Large,Urban,89,92,1906,Football  Basketball  Badminton  Cricket,Elena Sokolova,20
+Pacific University,Forest Grove,Oregon,Private,Business  Nursing  Computer_Science,290,560,26342,2341,20583,Very Large,Rural,83,75,1849,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Svetlana Antonova,34
+Palm Beach Atlantic University,West Palm Beach,Florida,Public,Criminal_Justice  Health_Science,299,550,38746,1385,19586,Very Large,Suburban,98,85,1968,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Pamela Ward,22
+Pennsylvania State University--University Park,University Park,Pennsylvania,Private,Psychology  Nursing,290,530,32288,2306,17048,Small,Suburban,85,85,1855,Basketball  Badminton  Cricket,Diana Murphy,38
+Pepperdine University,Malibu,California,Private,Business  Physics,293,495,26390,1533,18870,Large,Urban,94,96,1937,Football  Basketball  Badminton  Cricket,Priya Gupta,39
+Pontifical Catholic University of Puerto Rico--Ponce,Ponce,Puerto Rico,Private,Computer_Science  Business  Design,284,426,34218,2230,17653,Medium,Rural,98,95,1948,Football Volleyball  Badminton  Cricket,Angela Mitchell,16
+Portland State University,Portland,Oregon,Public,Biology  Psychology,310,710,28470,1522,20811,Small,Suburban,87,75,1946,Basketball  Badminton  Cricket,Samuel Roberts,21
+Princeton University,Princeton,New Jersey,Public,Business  Nursing,240,590,33354,1524,20677,Very Large,Suburban,99,77,1746,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Mark Evans,20
+Purdue University--West Lafayette,West Lafayette,Indiana,Public,Psychology  Business  Agriculture,240,750,42475,1300,16994,Very Large,Suburban,83,96,1869,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Sergey Ivanov,28
+Quinnipiac University,Hamden,Connecticut,Private,Physics  Criminal_Justice,307,640,40877,1696,20676,Small,Urban,100,79,1929,Basketball  Badminton  Cricket,Wei Zhao,15
+Regent University,Virginia Beach,Virginia,Private,Design  Computer_Science,325,710,28005,1252,17142,Very Large,Suburban,94,75,1977,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Sharon Bell,21
+Regis University,Denver,Colorado,Private,Psychology  Biology,300,550,46050,1345,20299,Medium,Urban,97,88,1877,Football Volleyball  Badminton  Cricket,Tara Martin,15
+Rensselaer Polytechnic Institute,Troy,New York,Private,Agriculture  Nursing,307,604,28150,1982,15681,Medium,Suburban,94,98,1824,Football Volleyball  Badminton  Cricket,Ying Liu,27
+Rice University,Houston,Texas,Private,Business  Health_Science  Criminal_Justice,295,610,44796,2246,18562,Very Large,Urban,100,90,1912,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,John Smith,40
+Robert Morris University,Moon Township,Pennsylvania,Private,Biology  Computer_Science,274,680,35676,1368,20202,Medium,Suburban,100,95,1921,Football Volleyball  Badminton  Cricket,Aaron Wright,18
+Rochester Institute of Technology,Rochester,New York,Private,Design  Physics,300,700,31286,1866,18739,Medium,Urban,94,91,1829,Football Volleyball  Badminton  Cricket,Anna Long,26
+Roosevelt University,Chicago,Illinois,Private,Biology  Agriculture,322,620,21417,1675,15773,Medium,Rural,88,91,1945,Football Volleyball  Badminton  Cricket,Dennis Reed,12
+Rowan University,Glassboro,New Jersey,Private,Mathematics  Design,308,530,22810,2350,16410,Medium,Rural,88,95,1923,Football Volleyball  Badminton  Cricket,Kimberly King,17
+Russell Sage College,Troy,New York,Private,Computer_Science  Health_Science,325,710,23409,1422,18396,Very Large,Urban,100,83,1916,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Charles Harris,9
+Rutgers University--Camden,Camden,New Jersey,Private,Criminal_Justice  Physics,300,550,27110,1927,15843,Medium,Urban,100,77,1926,Football Volleyball  Badminton  Cricket,James Wilson,10
+Rutgers University--New Brunswick,New Brunswick,New Jersey,Private,Physics  Mathemmatics,307,604,27576,2207,17574,Large,Suburban,83,84,1766,Football  Basketball  Badminton  Cricket,Anna Long,40
+Rutgers University--Newark,Newark,New Jersey,Private,Psychology  Agriculture,295,610,33624,1441,21593,Medium,Rural,92,81,1908,Football Volleyball  Badminton  Cricket,Ronald Hughes,33
+Sacred Heart University,Fairfield,Connecticut,Private,Health_Science  Criminal_Justice,274,680,27733,1499,20831,Large,Suburban,91,88,1963,Football  Basketball  Badminton  Cricket,Robert Jones,12
+Saint Louis University,St. Louis,Missouri,Private,Design  Computer_Science,307,538,24539,1672,15782,Very Large,Suburban,85,96,1818,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Paula Thompson,36
+Sam Houston State University,Huntsville,Texas,Private,Biology  Physics,290,560,50070,2239,20963,Small,Rural,100,90,1879,Basketball  Badminton  Cricket,Ying Liu,23
+Samford University,Birmingham,Alabama,Private,Mathematics  Agriculture  Phyics,299,550,32770,1736,20624,Medium,Urban,100,99,1841,Football Volleyball  Badminton  Cricket,Zachary Phillips,20
+San Diego State University,San Diego,California,Private,Business  Computer_Science,290,530,36352,1497,17019,Medium,Rural,92,94,1897,Football Volleyball  Badminton  Cricket,Christopher Scott,9
+Santa Clara University,Santa Clara,California,Private,Computer_Science  Biology,293,495,35660,1349,15515,Large,Urban,88,82,1851,Football  Basketball  Badminton  Cricket,Vikram Singh,27
+Seattle Pacific University,Seattle,Washington,Private,Design  Criminal_Justice,299,500,30154,1405,19889,Medium,Rural,98,91,1891,Football Volleyball  Badminton  Cricket,David White,21
+Seattle University,Seattle,Washington,Private,Computer_Sciences  Agriculture  Health_Sciences,290,570,28508,1512,18474,Small,Urban,93,75,1891,Basketball  Badminton  Cricket,Meera Sharma,39
+Seton Hall University,South Orange,New Jersey,Private,Psychology  Nursing,304,610,21303,1932,20890,Medium,Suburban,95,75,1856,Football Volleyball  Badminton  Cricket,William Miller,32
+Shenandoah University,Winchester,Virginia,Private,Nursing  Business,280,600,42934,1289,17333,Medium,Rural,97,80,1875,Football Volleyball  Badminton  Cricket,Raj Patel,29
+Simmons University,Boston,Massachusetts,Private,Biology  Health_Sciences,310,700,44382,1556,16044,Medium,Urban,93,96,1899,Football Volleyball  Badminton  Cricket,Stephanie Cox,14
+SMU,Dallas,Texas,Private,Biology  Computer_Science,280,450,32101,1376,15903,Large,Urban,94,77,1911,Football  Basketball  Badminton  Cricket,Wei Chen,26
+South Dakota State University,Brookings,South Dakota,Private,Agriculture  Nursing,309,605,24900,2204,18959,Small,Suburban,85,88,1881,Basketball  Badminton  Cricket,Matthew Baker,32
+Southern Illinois University Edwardsville,Edwardsville,Illinois,Private,Health_Science  Business,300,550,22532,1425,19750,Small,Rural,92,92,1957,Basketball  Badminton  Cricket,Kevin Hall,27
+Southern Illinois University--Carbondale,Carbondale,Illinois,Private,Nursing  Psychology,309,560,24924,2238,19605,Medium,Urban,94,92,1869,Football Volleyball  Badminton  Cricket,Gregory Allen,12
+Spalding University,Louisville,Kentucky,Private,Biology  Physics,300,500,20647,2154,21072,Large,Suburban,84,85,1814,Football  Basketball  Badminton  Cricket,Diana Murphy,35
+St. Catherine University,Saint Paul,Minnesota,Private,Business  Agriculture,267,710,27406,1381,17329,Small,Suburban,98,91,1905,Basketball  Badminton  Cricket,Paul Nelson,29
+St. John Fisher College,Rochester,New York,Private,Physics  Health_Science,149,450,44520,2189,15727,Very Large,Suburban,95,99,1948,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Sergey Ivanov,42
+St. John's University (NY),Queens,New York,Private,Criminal_Justice  Health_Science,300,425,40080,1555,21428,Medium,Urban,84,75,1870,Football Volleyball  Badminton  Cricket,Carol Baker,22
+Stanford University,Stanford,California,Private,Physics  Computer_Science,309,624,17725,1814,16860,Very Large,Rural,100,80,1885,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Richard Moore,34
+Stephen F. Austin State University,Nacogdoches,Texas,Private,Business  Nursing  Agriculture,290,460,43246,2185,21542,Large,Urban,96,92,1923,Football  Basketball  Badminton  Cricket,Priya Gupta,20
+Stevens Institute of Technology,Hoboken,New Jersey,Private,Mathematics  Design,300,620,29287,1637,20162,Medium,Rural,84,77,1870,Football Volleyball  Badminton  Cricket,Benjamin Cooper,36
+Stony Brook University--SUNY,Stony Brook,New York,Private,Health_Science  Design,299,550,26281,1945,16264,Very Large,Rural,94,78,1957,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Sanjay Kumar,18
+SUNY College of Environmental Science and Forestry,Syracuse,New York,Private,Criminal_Justice  Health_Science,310,710,43498,1946,19364,Small,Suburban,96,91,1911,Basketball  Badminton  Cricket,Linda Taylor,13
+Syracuse University,Syracuse,New York,Private,Biology  Agriculture,312,600,27166,2138,16766,Very Large,Rural,83,90,1870,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Sunil Verma,38
+Temple University,Philadelphia,Pennsylvania,Private,Mathematics  Design,290,525,35940,1333,16416,Small,Rural,97,83,1884,Basketball  Badminton  Cricket,Mary Hall,38
+Tennessee State University,Nashville,Tennessee,Private,Computer_Science  Health_Science,300,550,45230,1286,17432,Large,Suburban,93,80,1912,Football  Basketball  Badminton  Cricket,Mark Evans,19
+Tennessee Techn University,Cookeville,Tennessee,Private,Criminal_Justice  Physics,307,640,12789,1541,16488,Large,Urban,85,96,1915,Football  Basketball  Badminton  Cricket,Nancy Turner,16
+Texas A&M University,College Station,Texas,Private,Physics  Mathemmatics,325,710,23593,1846,21518,Very Large,Suburban,93,91,1876,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Wei Zhao,33
+Texas A&M University--Commerce,Commerce,Texas,Private,Psychology  Agriculture,300,550,38520,2159,19336,Very Large,Rural,97,80,1889,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Vikram Singh,18
+Texas A&M University--Corpus Christi,Corpus Christi,Texas,Private,Health_Science  Criminal_Justice,307,604,20800,1627,17222,Large,Suburban,83,89,1947,Football  Basketball  Badminton  Cricket,Sarah Davis,41
+Texas A&M University--Kingsville,Kingsville,Texas,Private,Design  Computer_Science,295,610,35752,1673,15488,Very Large,Urban,97,96,1925,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Ravi Mehta,39
+Texas Christian University,Fort Worth,Texas,Private,Biology  Physics,274,680,34570,1516,18486,Medium,Urban,92,94,1873,Football Volleyball  Badminton  Cricket,Olga Smirnova,29
+Texas Southern University,Houston,Texas,Private,Mathematics  Agriculture  Phyics,300,700,48830,1809,19050,Medium,Rural,84,92,1947,Football Volleyball  Badminton  Cricket,Meera Sharma,28
+Texas State University,San Marcos,Texas,Private,Business  Nursing,322,620,24092,2335,21505,Medium,Urban,98,84,1899,Football Volleyball  Badminton  Cricket,Susan Martinez,35
+Texas Tech University,Lubbock,Texas,Private,Design  Computer_Science,280,450,20750,2175,21147,Very Large,Urban,95,91,1923,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Michael Brown,23
+Texas Wesleyan University,Fort Worth,Texas,Private,Biology  Physics,270,450,44885,2261,19326,Large,Suburban,97,82,1890,Football  Basketball  Badminton  Cricket,Jennifer Foster,18
+Texas Woman's University,Denton,Texas,Private,Mathematics  Agriculture  Phyics,304,535,33586,1447,16534,Large,Suburban,88,98,1901,Football  Basketball  Badminton  Cricket,Elena Sokolova,39
+The Catholic University of America,Washington  D.C.,District of Columbia,Private,Psychology  Agriculture,310,550,40380,2133,20108,Large,Urban,85,88,1887,Football  Basketball  Badminton  Cricket,Paula Thompson,22
+The College of St. Scholastica,Duluth,Minnesota,Private,Agriculture  Criminal_Justice,300,430,49706,1742,18735,Large,Suburban,94,81,1912,Football  Basketball  Badminton  Cricket,John Smith,14
+The New School,New York,New York,Private,Computer_Science  Physics  Biology,299,500,39914,1514,18943,Medium,Rural,94,83,1919,Football Volleyball  Badminton  Cricket,James Wilson,23
+Thomas Jefferson University,Philadelphia,Pennsylvania,Private,Design  Mathematics,290,570,34526,2305,20524,Small,Suburban,100,89,1824,Basketball  Badminton  Cricket,Svetlana Antonova,14
+Touro College,New York,New York,Private,Criminal_Justice  Agriculture,304,610,27750,1413,15461,Very Large,Rural,86,82,1971,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Carl Allen,40
+Towson University,Towson,Maryland,Private,Nursing  Business,280,600,25666,1573,17642,Medium,Suburban,86,99,1866,Football Volleyball  Badminton  Cricket,Sergey Ivanov,41
+Trevecca Nazarene University,Nashville,Tennessee,Private,Business  Psychology  Physics,310,700,39610,1423,20829,Medium,Suburban,84,93,1901,Football Volleyball  Badminton  Cricket,Wei Zhao,36
+Trinity International University,Deerfield,Illinois,Private,Mathematics  Nursing,280,450,33894,1445,16239,Large,Suburban,89,77,1897,Football  Basketball  Badminton  Cricket,Melissa Ross,13
+Tufts University,Medford,Massachusetts,Private,Psychology  Biology,309,605,35646,1832,15278,Large,Urban,83,87,1852,Football  Basketball  Badminton  Cricket,Charles Harris,15
+Tulane University,New Orleans,Louisiana,Private,Business  Nursing  Agriculture,300,550,46494,1979,16454,Medium,Rural,95,82,1834,Football Volleyball  Badminton  Cricket,Ivan Petrov,20
+UNC Greensboro,Greensboro,North Carolina,Private,Nursing  Business,309,560,32820,1690,19846,Very Large,Urban,96,94,1891,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Ravi Mehta,15
+Union Institute and University,Cincinnati,Ohio,Private,Design  Criminal_Justice,300,500,35139,1947,16416,Large,Rural,89,80,1964,Football  Basketball  Badminton  Cricket,Mary Hall,15
+Union University,Jackson,Tennessee,Private,Psychology  Computer_Science,267,710,30153,1434,18200,Medium,Rural,90,75,1823,Football Volleyball  Badminton  Cricket,Sunil Verma,22
+Universidad Ana G. Mendez--Gurabo Campus,Gurabo,Puerto Rico,Private,Business  Agriculture,143,450,24680,1693,20577,Medium,Rural,98,92,1949,Football Volleyball  Badminton  Cricket,Matthew Baker,31
+University at Albany--SUNY,Albany,New York,Private,Biology  Health_Science,300,425,20542,1950,19738,Medium,Suburban,88,81,1844,Football Volleyball  Badminton  Cricket,Anna Long,32
+University at Buffalo--SUNY,Buffalo,New York,Private,Business  Psychology,309,624,13538,1309,16866,Large,Suburban,83,94,1846,Football  Basketball  Badminton  Cricket,Kelly Baker,23
+University of Akron,Akron,Ohio,Private,Computer_Science  Physics,290,460,36870,1843,21855,Very Large,Urban,100,81,1870,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Neha Shah,27
+University of Alabama,Tuscaloosa,Alabama,Private,Criminal_Justice  Nursing,300,620,39410,1526,21600,Large,Suburban,100,95,1831,Football  Basketball  Badminton  Cricket,Wei Chen,18
+University of Alabama at Birmingham,Birmingham,Alabama,Private,Health_Science  Psychology,299,550,31700,1539,19162,Large,Urban,97,77,1969,Football  Basketball  Badminton  Cricket,Benjamin Cooper,22
+University of Alabama--Huntsville,Huntsville,Alabama,Private,Mathematics  Design,310,710,30114,1863,19076,Small,Suburban,83,97,1961,Basketball  Badminton  Cricket,Maria Garcia,14
+University of Alaska--Fairbanks,Fairbanks,Alaska,Private,Business  Agriculture,312,600,32744,2287,20799,Medium,Rural,98,82,1917,Football Volleyball  Badminton  Cricket,Vikram Singh,30
+University of Arizona,Tucson,Arizona,Private,Psychology  Biology,290,525,22564,1987,18939,Medium,Suburban,83,88,1885,Football Volleyball  Badminton  Cricket,Samuel Roberts,27
+University of Arkansas,Fayetteville,Arkansas,Private,Design  Criminal_Justice,300,550,33520,1557,21572,Small,Rural,86,90,1871,Basketball  Badminton  Cricket,Priya Gupta,9
+University of Arkansas at Little Rock,Little Rock,Arkansas,Private,Business  Psychology,307,640,30570,1749,20694,Small,Urban,94,93,1927,Basketball  Badminton  Cricket,Billy Cox,19
+University of Bridgeport,Bridgeport,Connecticut,Private,Mathematics  Health_Science,325,710,12942,1780,17530,Medium,Suburban,95,84,1927,Football Volleyball  Badminton  Cricket,Priya Gupta,21
+University of California--Berkeley,Berkeley,California,Private,Nursing  Business,300,550,19000,1244,19126,Medium,Rural,87,89,1868,Football Volleyball  Badminton  Cricket,Jennifer Foster,27
+University of California--Davis,Davis,California,Private,Biology  Health_Science,307,604,22470,1731,19345,Very Large,Rural,89,78,1905,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Ying Liu,15
+University of California--Irvine,Irvine,California,Private,Physics  Computer_Science,295,610,29450,1747,16957,Medium,Suburban,91,75,1965,Football Volleyball  Badminton  Cricket,Gary King,38
+University of California--Los Angeles,Los Angeles,California,Private,Business  Nursing  Agriculture,274,680,24210,1308,16321,Very Large,Suburban,92,90,1919,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Teresa Brooks,18
+University of California--Merced,Merced,California,Private,Mathematics  Design,299,500,23274,2237,15540,Very Large,Urban,88,83,2005,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Jennifer Anderson,21
+University of California--Riverside,Riverside,California,Private,Business  Biology,290,570,16764,1895,18863,Small,Urban,87,86,1954,Basketball  Badminton  Cricket,Kevin Hall,29
+University of California--San Diego,San Diego,California,Private,Computer_Science  Physics,304,610,28026,1448,21608,Small,Rural,86,91,1960,Basketball  Badminton  Cricket,James Wilson,33
+University of California--Santa Barbara,Santa Barbara,California,Private,Business  Nursing,280,600,25977,2361,16734,Large,Suburban,90,92,1909,Football  Basketball  Badminton  Cricket,Jason White,18
+University of California--Santa Cruz,Santa Cruz,California,Private,Health_Science  Design,310,700,39820,1896,20058,Small,Rural,99,85,1965,Basketball  Badminton  Cricket,Andrew Carter,35
+University of Central Arkansas,Conway,Arkansas,Private,Criminal_Justice  Health_Science,280,450,15067,1382,21075,Small,Suburban,98,83,1907,Basketball  Badminton  Cricket,Linda Taylor,31
+University of Central Florida,Orlando,Florida,Private,Agriculture  Mathematics,309,605,35000,1278,18056,Medium,Urban,83,88,1963,Football Volleyball  Badminton  Cricket,Richard Moore,42
+University of Charleston,Charleston,South Carolina,Private,Psychology  Biology,300,550,23434,1833,16787,Small,Rural,93,99,1963,Basketball  Badminton  Cricket,Jennifer Anderson,12
+University of Chicago,Chicago,Illinois,Private,Biology  Health_Science,309,560,32727,2324,18927,Very Large,Rural,86,88,1890,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Brian Green,42
+University of Cincinnati,Cincinnati,Ohio,Private,Mathematics  Biology,300,500,25320,1540,18590,Very Large,Rural,83,99,1819,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Li Li,23
+University of Colorado Boulder,Boulder,Colorado,Private,Business  Psychology,267,710,41410,1251,18304,Medium,Rural,94,96,1876,Football Volleyball  Badminton  Cricket,Sanjay Kumar,38
+University of Colorado Denver,Denver,Colorado,Private,Mathematics  Health_Science,149,450,31600,1560,16146,Small,Urban,93,82,1912,Basketball  Badminton  Cricket,Karen Clark,42
+University of Colorado--Colorado Springs,Colorado Springs,Colorado,Private,Computer_Science  Physics,300,425,17294,1461,21700,Medium,Urban,88,97,1965,Football Volleyball  Badminton  Cricket,Tara Martin,9
+University of Connecticut,Storrs,Connecticut,Private,Design  Criminal_Justice,309,624,6012,2144,15812,Very Large,Urban,92,77,1881,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Anna Long,13
+University of Dayton,Dayton,Ohio,Private,Mathematics  Design,290,460,26950,1562,16082,Very Large,Urban,85,85,1850,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Wei Chen,18
+University of Delaware,Newark,Delaware,Private,Business  Psychology,300,620,31680,1830,18885,Large,Suburban,93,75,1743,Football  Basketball  Badminton  Cricket,Diana Murphy,19
+University of Denver,Denver,Colorado,Private,Nursing  Business,299,550,34490,1279,16386,Large,Urban,84,79,1864,Football  Basketball  Badminton  Cricket,Ivan Petrov,33
+University of Detroit Mercy,Detroit,Michigan,Private,Business  Nursing  Agriculture,310,710,15240,2232,17045,Medium,Suburban,99,89,1877,Football Volleyball  Badminton  Cricket,Sanjay Kumar,20
+University of Findlay,Findlay,Ohio,Private,Biology  Health_Science,312,600,23734,2148,17832,Very Large,Rural,94,96,1882,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Jennifer Foster,20
+University of Florida,Gainesville,Florida,Private,Business  Computer_Science,290,525,36720,1606,18711,Large,Suburban,90,97,1853,Football  Basketball  Badminton  Cricket,Vikram Singh,26
+University of Georgia,Athens,Georgia,Private,Computer_Science  Biology,300,550,21718,1984,19607,Very Large,Rural,99,90,1785,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Svetlana Antonova,22
+University of Hartford,West Hartford,Connecticut,Private,Design  Criminal_Justice,307,640,20793,1760,21108,Small,Rural,94,97,1877,Basketball  Badminton  Cricket,James Wilson,13
+University of Hawaii at Hilo,Hilo,Hawaii,Private,Computer_Sciences  Agriculture  Health_Sciences,325,710,33100,1995,20163,Large,Suburban,95,81,1947,Football  Basketball  Badminton  Cricket,Wei Chen,18
+University of Hawaii--Manoa,Honolulu,Hawaii,Private,Psychology  Nursing,300,550,17591,1688,20068,Medium,Suburban,83,75,1907,Football Volleyball  Badminton  Cricket,Mark Evans,35
+University of Houston,Houston,Texas,Private,Nursing  Business,307,604,38160,1869,19735,Very Large,Suburban,84,99,1927,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Samuel Roberts,27
+University of Idaho,Moscow,Idaho,Private,Biology  Health_Sciences,295,610,31952,1923,21011,Large,Suburban,88,75,1889,Football  Basketball  Badminton  Cricket,Meera Sharma,25
+University of Illinois--Chicago,Chicago,Illinois,Private,Biology  Computer_Science,274,680,21655,1460,19855,Small,Suburban,91,77,1965,Basketball  Badminton  Cricket,Arjun Singh,11
+University of Illinois--Urbana-Champaign,Champaign,Illinois,Private,Agriculture  Nursing,300,700,31960,1720,16762,Small,Rural,98,97,1867,Basketball  Badminton  Cricket,Olga Smirnova,12
+University of Indianapolis,Indianapolis,Indiana,Private,Health_Science  Business,322,620,19548,1419,17348,Small,Urban,88,83,1902,Basketball  Badminton  Cricket,Wei Zhao,24
+University of Iowa,Iowa City,Iowa,Private,Nursing  Psychology,308,530,20243,1535,16629,Large,Rural,98,84,1847,Football  Basketball  Badminton  Cricket,Nancy Turner,12
+University of Kansas,Lawrence,Kansas,Private,Biology  Physics,298,450,14471,1200,20849,Medium,Rural,90,80,1865,Football Volleyball  Badminton  Cricket,Meera Sharma,30
+University of Kentucky,Lexington,Kentucky,Private,Business  Agriculture,300,607,18820,1367,15792,Medium,Suburban,87,96,1865,Football Volleyball  Badminton  Cricket,John Smith,12
+University of La Verne,La Verne,California,Private,Physics  Health_Science,324,705,16027,2249,15370,Small,Urban,84,76,1891,Basketball  Badminton  Cricket,Kimberly King,20
+University of Louisiana at Lafayette,Lafayette,Louisiana,Private,Criminal_Justice  Health_Science,299,550,28252,1438,15239,Medium,Urban,84,80,1898,Football Volleyball  Badminton  Cricket,Kevin Hall,27
+University of Louisiana--Monroe,Monroe,Louisiana,Private,Physics  Computer_Science,314,637,24234,1911,20284,Very Large,Urban,84,96,1931,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Alisha Joshi,22
+University of Louisville,Louisville,Kentucky,Private,Business  Nursing  Agriculture,299,513,33620,1596,19447,Medium,Rural,90,94,1798,Football Volleyball  Badminton  Cricket,Benjamin Cooper,31
+University of Maine,Orono,Maine,Private,Mathematics  Design,303,623,27406,2344,19726,Medium,Rural,85,85,1865,Football Volleyball  Badminton  Cricket,Pamela Ward,32
+University of Mary,Bismarck,North Dakota,Private,Health_Science  Design,306,610,39920,1737,15158,Medium,Urban,87,82,1955,Football Volleyball  Badminton  Cricket,Wei Chen,30
+University of Maryland Eastern Shore,Princess Anne,Maryland,Private,Criminal_Justice  Health_Science,290,318,19606,1341,21857,Very Large,Rural,90,82,1886,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Wei Chen,36
+University of Maryland--Baltimore County,Baltimore,Maryland,Private,Agriculture  Mathematics,302,580,29584,2105,18460,Very Large,Urban,89,98,1966,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,David White,38
+University of Maryland--College Park,College Park,Maryland,Private,Psychology  Biology,299,590,26642,2304,18186,Large,Suburban,88,89,1856,Football  Basketball  Badminton  Cricket,Vikram Singh,27
+University of Massachusetts--Amherst,Amherst,Massachusetts,Private,Mathematics  Health_Science,299,550,23769,1231,16457,Very Large,Suburban,90,98,1863,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Dennis Reed,23
+University of Massachusetts--Boston,Boston,Massachusetts,Private,Computer_Science  Physics,293,560,12809,1615,15205,Small,Urban,84,83,1852,Basketball  Badminton  Cricket,Benjamin Cooper,38
+University of Massachusetts--Dartmouth,North Dartmouth,Massachusetts,Private,Design  Criminal_Justice,299,500,20798,1473,18582,Small,Urban,98,91,1895,Basketball  Badminton  Cricket,Priya Gupta,16
+University of Massachusetts--Lowell,Lowell,Massachusetts,Private,Mathematics  Design,160,640,4198,1374,18535,Medium,Rural,94,89,1894,Football Volleyball  Badminton  Cricket,Mary Hall,20
+University of Memphis,Memphis,Tennessee,Private,Business  Psychology,274,550,29299,1488,18272,Large,Suburban,96,75,1912,Football  Basketball  Badminton  Cricket,Diana Murphy,14
+University of Miami,Coral Gables,Florida,Private,Nursing  Business,257,550,17190,1671,21935,Large,Urban,86,77,1925,Football  Basketball  Badminton  Cricket,Jessica Wright,41
+University of Michigan--Ann Arbor,Ann Arbor,Michigan,Private,Business  Nursing  Agriculture,301,545,31008,1729,15592,Medium,Urban,85,83,1817,Football Volleyball  Badminton  Cricket,Richard Moore,14
+University of Michigan--Flint,Flint,Michigan,Private,Biology  Health_Science,310,650,16070,1964,21413,Small,Urban,88,94,1956,Basketball  Badminton  Cricket,Christopher Scott,12
+University of Minnesota--Twin Cities,Minneapolis,Minnesota,Private,Computer_Science  Biology,160,640,24210,2326,20609,Small,Suburban,87,94,1851,Basketball  Badminton  Cricket,Diana Murphy,15
+University of Mississippi,University,Mississippi,Private,Design  Criminal_Justice,274,550,25600,2203,19527,Large,Suburban,98,88,1844,Football  Basketball  Badminton  Cricket,Gary King,20
+University of Missouri,Columbia,Missouri,Private,Computer_Sciences  Agriculture  Health_Sciences,260,640,30014,1829,20745,Medium,Rural,86,78,1839,Football Volleyball  Badminton  Cricket,Susan Martinez,17
+University of Missouri--Kansas City,Kansas City,Missouri,Private,Physics  Health_Science,326,729,34290,2315,21885,Large,Suburban,100,88,1933,Football  Basketball  Badminton  Cricket,Pamela Ward,25
+University of Missouri--St. Louis,St. Louis,Missouri,Private,Criminal_Justice  Health_Science,260,580,24988,2443,19607,Small,Urban,84,99,1963,Basketball  Badminton  Cricket,Matthew Baker,19
+University of Montana,Missoula,Montana,Private,Physics  Computer_Science,322,760,34762,1406,21527,Large,Urban,90,79,1893,Football  Basketball  Badminton  Cricket,Jason White,10
+University of Nebraska--Lincoln,Lincoln,Nebraska,Private,Business  Nursing  Agriculture,310,670,31320,2455,17549,Large,Suburban,84,76,1869,Football  Basketball  Badminton  Cricket,Pamela Ward,35
+University of Nebraska--Omaha,Omaha,Nebraska,Private,Mathematics  Design,299,550,24430,1759,20076,Small,Urban,87,99,1908,Basketball  Badminton  Cricket,Wei Zhao,17
+University of Nevada--Las Vegas,Las Vegas,Nevada,Private,Health_Science  Design,274,607,16480,1985,21280,Medium,Urban,94,80,1957,Football Volleyball  Badminton  Cricket,Matthew Baker,13
+University of Nevada--Reno,Reno,Nevada,Private,Criminal_Justice  Health_Science,207,425,12573,1298,15746,Small,Suburban,96,86,1874,Basketball  Badminton  Cricket,Anna Long,15
+University of New England,Biddeford,Maine,Private,Agriculture  Mathematics,282,726,31250,1745,15852,Medium,Rural,87,99,1939,Football Volleyball  Badminton  Cricket,Andrew Carter,12
+University of New Hampshire,Durham,New Hampshire,Private,Business  Psychology,256,445,29998,1893,21389,Medium,Rural,94,85,1866,Football Volleyball  Badminton  Cricket,Wei Chen,37
+University of New Mexico,Albuquerque,New Mexico,Private,Mathematics  Physics,205,570,14090,2297,15659,Very Large,Suburban,94,97,1889,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Dennis Reed,24
+University of New Orleans,New Orleans,Louisiana,Private,Design  Agriculture,279,640,13290,2330,20864,Medium,Urban,93,90,1958,Football Volleyball  Badminton  Cricket,Kelly Baker,14
+University of North Carolina--Chapel Hill,Chapel Hill,North Carolina,Private,Computer_Science  Physics,310,570,21396,1746,16590,Small,Urban,95,91,1789,Basketball  Badminton  Cricket,Sergey Ivanov,32
+University of North Carolina--Charlotte,Charlotte,North Carolina,Private,Business  Nursing,317,710,17800,2253,15259,Medium,Rural,83,93,1946,Football Volleyball  Badminton  Cricket,Mary Hall,21
+University of North Carolina--Wilmington,Wilmington,North Carolina,Private,Mathematics  Health_Science,305,500,20430,1861,20613,Medium,Urban,86,96,1947,Football Volleyball  Badminton  Cricket,Samuel Roberts,13
+University of North Dakota,Grand Forks,North Dakota,Private,Criminal_Justice  Design,280,450,24494,2400,16309,Medium,Urban,98,87,1883,Football Volleyball  Badminton  Cricket,Sunil Verma,9
+University of North Florida,Jacksonville,Florida,Private,Physics  Biology,270,450,20570,2385,17986,Very Large,Urban,95,87,1972,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,James Wilson,12
+University of North Texas,Denton,Texas,Private,Computer_Science  Criminal_Justice  Nursing,304,535,17464,2267,17150,Medium,Urban,95,83,1890,Football Volleyball  Badminton  Cricket,Richard Moore,34
+University of Northern Colorado,Greeley,Colorado,Private,Business  Computer_Science,310,550,7584,1318,15847,Medium,Suburban,88,82,1889,Football Volleyball  Badminton  Cricket,Jennifer Anderson,11
+University of Notre Dame,Notre Dame,Indiana,Private,Psychology  Nursing,300,430,9445,2377,19915,Small,Rural,99,88,1842,Basketball  Badminton  Cricket,John Smith,31
+University of Oklahoma,Norman,Oklahoma,Private,Computer_Science  Business,299,500,34968,2405,17986,Large,Urban,94,93,1890,Football  Basketball  Badminton  Cricket,Billy Cox,24
+University of Oregon,Eugene,Oregon,Private,Psychology  Business,290,570,21616,1490,18874,Medium,Rural,96,85,1876,Football Volleyball  Badminton  Cricket,Wei Chen,26
+University of Pennsylvania,Philadelphia,Pennsylvania,Private,Biology  Health_Sciences,304,610,22826,2225,17324,Small,Rural,89,91,1740,Basketball  Badminton  Cricket,Wei Chen,35
+University of Phoenix,Phoenix,Arizona,Private,Biology  Computer_Science,280,600,24910,1464,17051,Very Large,Urban,95,84,1976,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Benjamin Cooper,25
+University of Pittsburgh--Pittsburgh Campus,Pittsburgh,Pennsylvania,Private,Agriculture  Nursing,310,700,18640,1408,20666,Medium,Rural,99,88,1787,Football Volleyball  Badminton  Cricket,Ivan Petrov,38
+University of Puerto Rico--Rio Piedras,San Juan,Puerto Rico,Private,Health_Science  Business,280,450,31085,1621,17803,Medium,Rural,88,98,1903,Football Volleyball  Badminton  Cricket,Anna Long,34
+University of Rhode Island,Kingston,Rhode Island,Private,Nursing  Psychology,309,605,15673,1674,15803,Small,Suburban,87,79,1892,Basketball  Badminton  Cricket,Tara Martin,42
+University of Rochester,Rochester,New York,Private,Psychology  Computer_Science,300,550,20302,2375,15961,Medium,Suburban,83,79,1850,Football Volleyball  Badminton  Cricket,Priya Gupta,31
+University of Saint Joseph,West Hartford,Connecticut,Private,Biology  Physics,309,560,16608,1529,19687,Very Large,Suburban,95,96,1932,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Diana Murphy,33
+University of San Diego,San Diego,California,Private,Business  Agriculture,300,500,18480,1426,15700,Medium,Urban,85,88,1949,Football Volleyball  Badminton  Cricket,Diana Murphy,41
+University of San Francisco,San Francisco,California,Private,Physics  Health_Science,267,710,11325,1894,18109,Large,Urban,95,85,1855,Football  Basketball  Badminton  Cricket,Kimberly King,26
+University of South Alabama,Mobile,Alabama,Private,Nursing  Business,149,450,12478,1816,20931,Very Large,Suburban,93,97,1963,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Ivan Petrov,23
+University of South Carolina,Columbia,South Carolina,Private,Psychology  Agriculture,300,425,20448,1479,16021,Medium,Suburban,97,97,1801,Football Volleyball  Badminton  Cricket,Meera Sharma,33
+University of South Dakota,Vermillion,South Dakota,Private,Psychology  Nursing,309,624,24708,1761,20550,Large,Rural,95,82,1862,Football  Basketball  Badminton  Cricket,Christopher Scott,13
+University of South Florida,Tampa,Florida,Private,Computer_Science  Business,290,460,29926,1250,20507,Large,Rural,88,86,1956,Football  Basketball  Badminton  Cricket,Wei Zhao,19
+University of Southern California,Los Angeles,California,Private,Psychology  Business,300,620,34136,1234,20279,Small,Rural,100,75,1880,Basketball  Badminton  Cricket,Vikram Singh,15
+University of Southern Mississippi,Hattiesburg,Mississippi,Private,Biology  Health_Sciences,299,550,5510,1235,17097,Very Large,Rural,97,85,1910,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Richard Moore,16
+University of St. Francis,Joliet,Illinois,Private,Biology  Computer_Science,310,710,31493,1291,21885,Large,Rural,88,81,1914,Football  Basketball  Badminton  Cricket,Wei Chen,16
+University of St. Thomas (MN),Saint Paul,Minnesota,Private,Agriculture  Nursing,312,600,12300,1763,19530,Medium,Rural,83,97,1885,Football Volleyball  Badminton  Cricket,David White,12
+University of Tennessee,Knoxville,Tennessee,Private,Health_Science  Business,290,525,25975,1998,19465,Large,Suburban,83,83,1794,Football  Basketball  Badminton  Cricket,Wei Chen,42
+University of Tennessee--Chattanooga,Chattanooga,Tennessee,Private,Nursing  Psychology,300,550,21616,1754,16320,Large,Urban,99,80,1886,Football  Basketball  Badminton  Cricket,Charles Harris,16
+University of Texas at Arlington,Arlington,Texas,Private,Psychology  Computer_Science,307,640,21910,1283,15495,Large,Urban,94,87,1895,Football  Basketball  Badminton  Cricket,Ying Liu,17
+University of Texas at Austin,Austin,Texas,Private,Biology  Physics,325,710,22266,2002,15141,Very Large,Rural,100,75,1883,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Meera Sharma,31
+University of Texas at Dallas,Richardson,Texas,Private,Business  Agriculture,300,550,23367,1785,16359,Large,Urban,84,75,1961,Football  Basketball  Badminton  Cricket,Kevin Hall,12
+University of Texas at San Antonio,San Antonio,Texas,Private,Physics  Health_Science,307,604,23106,1996,21665,Medium,Rural,85,84,1969,Football Volleyball  Badminton  Cricket,Wei Zhao,35
+University of Texas at Tyler,Tyler,Texas,Private,Nursing  Business,295,610,21443,1869,21358,Medium,Urban,94,85,1971,Football Volleyball  Badminton  Cricket,Arjun Singh,9
+University of Texas--El Paso,El Paso,Texas,Private,Psychology  Agriculture,274,680,24091,1923,20341,Large,Suburban,92,76,1914,Football  Basketball  Badminton  Cricket,Richard Moore,12
+University of Texas--Rio Grande Valley,Edinburg,Texas,Private,Business  Nursing  Computer_Science,300,700,33408,1460,15273,Large,Suburban,87,76,2013,Football  Basketball  Badminton  Cricket,Jennifer Foster,23
+University of the Cumberlands,Williamsburg,Kentucky,Private,Criminal_Justice  Health_Science,322,620,22474,1720,20967,Small,Rural,88,98,1888,Basketball  Badminton  Cricket,Vikram Singh,14
+University of the Incarnate Word,San Antonio,Texas,Private,Psychology  Nursing,308,530,26898,1419,15457,Large,Rural,87,96,1881,Football  Basketball  Badminton  Cricket,Priya Gupta,40
+University of the Pacific,Stockton,California,Private,Business  Physics,298,450,33298,1535,15940,Medium,Suburban,92,92,1851,Football Volleyball  Badminton  Cricket,Wei Chen,15
+University of Toledo,Toledo,Ohio,Private,Computer_Science  Business  Design,300,607,15686,1622,19315,Small,Urban,83,83,1872,Basketball  Badminton  Cricket,Diana Murphy,33
+University of Tulsa,Tulsa,Oklahoma,Private,Biology  Psychology,324,705,5820,2370,18927,Medium,Urban,84,88,1894,Football Volleyball  Badminton  Cricket,Wei Chen,20
+University of Utah,Salt Lake City,Utah,Private,Business  Nursing,299,550,15410,2219,15821,Medium,Urban,88,78,1850,Football Volleyball  Badminton  Cricket,Sharon Bell,24
+University of Vermont,Burlington,Vermont,Private,Psychology  Business  Agriculture,314,637,86958,1903,19040,Very Large,Urban,86,90,1791,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Benjamin Cooper,30
+University of Virginia,Charlottesville,Virginia,Private,Physics  Criminal_Justice,299,513,18957,2262,20697,Medium,Rural,94,77,1819,Football Volleyball  Badminton  Cricket,Anna Long,39
+University of Washington,Seattle,Washington,Private,Design  Computer_Science,286,490,32987,1334,19487,Small,Suburban,98,96,1861,Basketball  Badminton  Cricket,Dennis Reed,19
+University of West Georgia,Carrollton,Georgia,Private,Psychology  Biology,207,550,16433,2341,17842,Medium,Rural,90,86,1906,Football Volleyball  Badminton  Cricket,Kimberly King,25
+University of Wisconsin--Madison,Madison,Wisconsin,Private,Agriculture  Nursing,302,500,31400,1385,18184,Large,Rural,95,83,1848,Football  Basketball  Badminton  Cricket,Benjamin Cooper,15
+University of Wisconsin--Milwaukee,Milwaukee,Wisconsin,Private,Business  Health_Science  Criminal_Justice,307,538,25600,2306,16650,Large,Urban,87,90,1885,Football  Basketball  Badminton  Cricket,James Wilson,40
+University of Wyoming,Laramie,Wyoming,Private,Biology  Computer_Science,290,560,24110,1533,20438,Medium,Suburban,96,88,1886,Football Volleyball  Badminton  Cricket,Dennis Reed,34
+Utah State University,Logan,Utah,Private,Design  Physics,299,550,21651,2230,17045,Large,Suburban,93,79,1888,Football  Basketball  Badminton  Cricket,Tara Martin,41
+Valdosta State University,Valdosta,Georgia,Private,Agriculture  Business,290,530,20628,1522,21144,Medium,Rural,99,76,1906,Football Volleyball  Badminton  Cricket,Vikram Singh,31
+Valparaiso University,Valparaiso,Indiana,Private,Criminal_Justice  Psychology,293,495,18968,1524,19854,Large,Urban,89,81,1859,Football  Basketball  Badminton  Cricket,Sanjay Kumar,11
+Vanderbilt University,Nashville,Tennessee,Private,Nursing  Biology,284,426,24622,1300,18193,Medium,Suburban,95,95,1873,Football Volleyball  Badminton  Cricket,Pooja Kapoor,19
+Villanova University,Villanova,Pennsylvania,Private,Computer_Science  Physics,310,710,16762,1696,18832,Small,Rural,91,93,1842,Basketball  Badminton  Cricket,Richard Moore,33
+Virginia Commonwealth University,Richmond,Virginia,Private,Health_Science  Design,240,590,22496,1252,17706,Medium,Suburban,94,86,1838,Football Volleyball  Badminton  Cricket,Wei Chen,37
+Virginia Tech,Blacksburg,Virginia,Private,Agriculture  Business,240,750,9552,1345,18592,Large,Urban,94,89,1872,Football  Basketball  Badminton  Cricket,Wei Zhao,25
+Wake Forest University,Winston-Salem,North Carolina,Private,Nursing  Criminal_Justice,293,495,20840,1982,19677,Small,Urban,90,93,1834,Basketball  Badminton  Cricket,Benjamin Cooper,32
+Washburn University,Topeka,Kansas,Private,Business  Psychology  Physics,267,710,11160,2246,16379,Small,Rural,83,76,1865,Basketball  Badminton  Cricket,Dennis Reed,21
+Washington State University,Pullman,Washington,Private,Physics  Health_Science,149,450,25966,1368,20214,Medium,Suburban,84,96,1890,Football Volleyball  Badminton  Cricket,Mary Hall,24
+Washington University in St. Louis,St. Louis,Missouri,Private,Psychology  Biology,300,425,25920,1866,21767,Small,Urban,85,95,1853,Basketball  Badminton  Cricket,Meera Sharma,24
+Wayne State University,Detroit,Michigan,Private,Computer_Science  Business  Design,305,530,25016,1675,21321,Very Large,Rural,93,93,1868,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Richard Moore,15
+West Virginia University,Morgantown,West Virginia,Private,Nursing  Criminal_Justice,296,480,24952,2350,17857,Medium,Urban,97,90,1867,Football Volleyball  Badminton  Cricket,Jennifer Foster,33
+Western Kentucky University,Bowling Green,Kentucky,Private,Business  Physics,317,710,18733,1422,19856,Large,Rural,94,77,1906,Football  Basketball  Badminton  Cricket,Amanda Taylor,13
+Western Michigan University,Kalamazoo,Michigan,Private,Design  Mathematics,300,550,9875,1927,18998,Medium,Suburban,97,85,1903,Football Volleyball  Badminton  Cricket,Daniel Parker,30
+Western New England University,Springfield,Massachusetts,Private,Nursing  Biology,299,550,20818,2207,16555,Medium,Urban,93,93,1919,Football Volleyball  Badminton  Cricket,Jessica Walker,18
+Wichita State University,Wichita,Kansas,Private,Criminal_Justice  Psychology,290,530,21432,1441,21762,Small,Suburban,99,79,1895,Basketball  Badminton  Cricket,Benjamin Evans,21
+Widener University,Chester,Pennsylvania,Private,Computer_Science  Health_Science,293,495,21119,1499,21235,Very Large,Rural,94,77,1821,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Samantha Mitchell,20
+Wilkes University,Wilkes-Barre,Pennsylvania,Private,Biology  Physics,284,426,17638,1672,16346,Large,Suburban,94,89,1933,Football  Basketball  Badminton  Cricket,Jonathan Anderson,30
+William & Mary,Williamsburg,Virginia,Private,Business  Agriculture,310,710,19876,2239,18656,Large,Rural,95,80,1693,Football  Basketball  Badminton  Cricket,Megan Lewis,23
+William Carey University,Hattiesburg,Mississippi,Private,Physics  Health_Science,240,590,26496,1736,17407,Very Large,Rural,91,92,1892,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Justin Turner,10
+William Woods University,Fulton,Missouri,Private,Criminal_Justice  Health_Science,240,750,18166,1497,18279,Medium,Suburban,94,98,1870,Football Volleyball  Badminton  Cricket,Rachel Hill,41
+Wilmington University,New Castle,Delaware,Private,Physics  Computer_Science,299,550,14100,1349,20134,Medium,Suburban,98,98,1968,Football Volleyball  Badminton  Cricket,Charles Bennett,15
+Wingate University,Wingate,North Carolina,Private,Business  Nursing  Agriculture,284,760,25930,1405,21937,Small,Suburban,99,77,1896,Basketball  Badminton  Cricket,Laura Carter,41
+Worcester Polytechnic Institute,Worcester,Massachusetts,Private,Mathematics  Design,304,634,11750,1512,17003,Medium,Suburban,87,76,1865,Football Volleyball  Badminton  Cricket,Andrew Hayes,15
+Wright State University,Dayton,Ohio,Private,Health_Science  Design,290,489,40170,1932,17474,Very Large,Rural,85,88,1964,Football  Basketball  Volleyball  Badminton  Tennis  Cricket,Lauren Foster,26
+Yale University,New Haven,Connecticut,Private,Criminal_Justice  Health_Science,317,720,19097,1289,17284,Small,Urban,100,93,1701,Basketball  Badminton  Cricket,Christopher Reed,18
+Yeshiva University,New York,New York,Private,Physics  Mathemmatics,310,710,15480,1556,15865,Medium,Suburban,92,77,1886,Football Volleyball  Badminton  Cricket,Allison Wright,26
